@@ -206,12 +206,136 @@ a {text-decoration: none;
                        margin: 50px 50px 80px 50px;
                      }
 
+/*COURSE-GENERAL INFO*/
+
+#box1 {width:270px;
+       float:left;
+       margin:20px 33px;
+       border-right: 1px solid black;
+       height:600px;
+      
+     }
+
+#box2 {width:760px;
+        height:1000px;
+        float:left;
+        margin:20px 0px;
+        }
+
+#box1-menu, .enrol-button, #enrol-button, #open-day {width: 260px;
+            height:200px;
+            margin:5px;
+           float:left;
+         }
+
+#box1-menu ul {list-style-type: none;}
+
+#box1-menu ul li {padding-bottom: 3px;}
+
+#box1-menu ul li a, #open-day p a {text-decoration: none;
+                  font-size: 25px;
+                 }
+
+#box1-menu ul li a:hover {background-color: steelblue;
+                        color:white;
+                      }
+
+#box1-menu ul li:not(:last-child) {border-bottom: 1px solid black;} 
+
+.enrol-button, #enrol-button {height:50px;}
+
+#enrol-button {margin-right:10px;
+              width:255px;
+              background-color: steelblue;
+              font-size: 20px;
+              color:white;
+              border:none;
+            }
+
+#open-day {background-color: rgba(70,130,180,0.50);
+          border-radius: 20px;
+          color:white;
+          text-align: center;
+          margin-top:20px;
+          font-size: 30px;
+        }
+#open-day p a{margin: 70px 5px 0px 0px;
+              float:right;
+              color:white;
+              border-radius: 5px;
+             }
+
+#open-day-date {width:260px;
+                height:70px;
+                margin-top: 20px;
+              }
+
+#course-img, #course-summary {width:380px;
+            height:400px;
+            float:left;
+           margin:0px;
+           }
+
+#course-img {background-color: steelblue;
+            margin-bottom: 5px;}
+
+#course-info-title, #course-description-title {width:700px;
+                    height:30px;
+                    background-color: steelblue;
+                    float:left;
+                    color:white;
+                  }
+
+#course-description,#course-info {width:700px;
+                    height:400px;
+                    margin:10px 0px;
+                    float:left;
+                    border:5px solid steelblue;
+                    text-align: justify;
+                    text-indent: 25px;
+                    font-size: 20px;
+                  }
+
+#course-info {height:300px;
+              border:none;
+              display: flex;
+              flex-flow: row wrap;
+            }
+
+#course-info .item {width:200px;
+                    height:100px;
+                    margin:5px;
+                    border:1px solid steelblue;}
+
+#course-description p {margin: 10px;}
+
+.item1,.item2, {height:50px;
+        width:200px;
+        float:left;
+      }
+.img {height:100px;
+    width:30px;
+    float:left;}
+
+.icon {width:30px;
+      height: 30px;
+      float:left;
+      margin-left: 5px;}
+
+.item h4 {text-align:center;
+          }
+
+.item p {text-align:center;
+        font-size: 13px;}
+
+/*FOOTER*/
+
 .footer {float:left;
         width:362px;
         height:250px;
         }
 
-.footer-title   {  font-size: 20px;
+.footer-title   {   font-size: 20px;
                     font-weight: 1000;
                     margin:5px 0px 20px 25px;
                     }
