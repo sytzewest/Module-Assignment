@@ -15,6 +15,13 @@ body {background-image:url(pics/bg10.jpg);
             background-color: rgba(255,255,255,0.70);
             margin:0 auto;
         }
+		
+#container-overview {width:1112px;
+            height:1500px;
+            background-color: rgba(255,255,255,0.70);
+            margin:0 auto;
+        }
+		
 #header   {width:1112px;
            height:200px;}
 
@@ -110,7 +117,7 @@ a {text-decoration: none;
 .course_overview {width: 1112px; 
 				  height: 75px; 
 				  float: left;
-				  padding-left: 230px;
+				  padding-left: 25px;
 }
 
 .list_overview {width: 900px; 
