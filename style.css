@@ -107,6 +107,12 @@ a {text-decoration: none;
       width:263px;  
   }
 
+.course_overview {width: 1112px; height: 75px;}
+
+.list_overview {width: 750px; height: 750px;}
+
+.course {width: 400px; height: 200px;}
+
 .button {width:263px;  
         height:70px;
         background-color:#CBD8E3;
