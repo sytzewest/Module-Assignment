@@ -281,7 +281,7 @@ a {text-decoration: none;
               border:none;
             }
 
-#open-day {background-color: rgba(70,130,180,0.50);
+#open-day {background-color: steelblue;
           border-radius: 20px;
           color:white;
           text-align: center;
@@ -300,13 +300,18 @@ a {text-decoration: none;
               }
 
 #course-img, #course-summary {width:380px;
-            height:400px;
+            height:300px;
             float:left;
            margin:0px;
+           text-align: center;
            }
+#course-summary {height:100px;
+                margin-top: 70px;}
 
-#course-img {background-color: steelblue;
-            margin-bottom: 5px;}
+#course-img {margin-bottom: 5px;}
+
+#course-img img {width:380px;
+                  height: 280px;}
 
 #course-info-title, #course-description-title {width:700px;
                     height:30px;
