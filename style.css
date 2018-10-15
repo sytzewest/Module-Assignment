@@ -107,11 +107,40 @@ a {text-decoration: none;
       width:263px;  
   }
 
-.course_overview {width: 1112px; height: 75px;}
+.course_overview {width: 1112px; 
+				  height: 75px; 
+				  float: left;
+				  padding-left: 230px;
+}
 
-.list_overview {width: 750px; height: 750px;}
+.list_overview {width: 900px; 
+				height: 1000px; 
+				float: left;
+}
 
-.course {width: 400px; height: 200px;}
+.course_menu {width: 200px;
+			  height: 750px;
+			  float: left;
+}
+
+.course {width: 650px; 
+         height: 250px;
+		 float: left;
+		 padding-left: 20px;
+		 padding-top: 7px;
+}
+
+.course_text {width: 300px; 
+         height: 200px;
+		 padding: 25px;
+		 float: left;
+}
+
+.image_course {width: 275px; 
+			   height: 150px; 
+			   float: left; 
+			   padding: 10px
+}
 
 .button {width:263px;  
         height:70px;
