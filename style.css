@@ -317,7 +317,30 @@ a {text-decoration: none;
                        text-indent:30px;
                        margin: 50px 50px 80px 50px;
                      }
-
+/*Exchange students*/
+.paraheader{
+  color: steelblue;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  
+}
+#parabody{
+  margin: auto;
+  height: 700px;
+  width: 800px; 
+}
+.textofpara{
+  color: black;
+  padding-bottom: 16px;
+  
+}
+#textofpara1{
+  color: black;
+  padding: 17px;
+  font-size: 16px;
+}
 /*COURSE-GENERAL INFO*/
 
 #box1 {width:270px;
@@ -495,6 +518,16 @@ a {text-decoration: none;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
+#course-summary-bank
+{
+  width:380px;
+  height:50px;
+  float:left;
+  margin:0px;
+  margin-top:135px;
+  text-align: center;
+
+}
 
 /*ADMISSION PAGE*/
 
@@ -565,7 +598,7 @@ a {text-decoration: none;
 	border: 1px solid black;
 	float: left;
 	font-size:20px;
-	
+
 }
 
 #year-1-narrative p, #year-3-narrative p, #year-2-narrative p, #year-4-narrative p {
@@ -576,11 +609,11 @@ a {text-decoration: none;
 #career{
 	height:500px;
 	width:750px;
-		
+
 }
 
 #career p {
-	
+
 	margin-top:20px;
 	font-size:20px;
 	text-align:justify;
