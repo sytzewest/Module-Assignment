@@ -150,10 +150,9 @@ a {text-decoration: none;
 		 float: left;
 		 padding-left: 30px;
 		 padding-top: 7px;
-=======
-    		 float: left;
-    		 padding-left: 20px;
-    		 padding-top: 7px;
+		float: left;
+		padding-left: 20px;
+		padding-top: 7px;
 }
 
 
@@ -337,6 +336,18 @@ a {text-decoration: none;
 #course-img {background-color: steelblue;
             margin-bottom: 5px;}
 
+#course-summary p{
+	font-weight:bold;
+	font-size:30px;
+	text-align:center;
+	padding-top:150px;
+}
+
+#bus-info-man-img-dimension{
+	width:380px;
+	height:400px;
+}
+
 #course-info-title, #course-description-title {width:700px;
                     height:30px;
                     background-color: steelblue;
@@ -423,17 +434,12 @@ a {text-decoration: none;
 	height:240px;
 	width:190px;
 	
-	
-		
-
 }
 
 #year-2, #year-4{
 	float:right;
 	height:240px;
 	width:190px;
-	
-	
 }
 
 #year-1 p,#year-3 p, #year-2 p, #year-4 p{
@@ -444,8 +450,6 @@ a {text-decoration: none;
 	margin-left:60px;
 	font-size:30px;
 	font-weight: bold;
-	font-family: arial; 
-	color: 	#0000FF;
 	text-transform:uppercase;
 }
 
@@ -455,8 +459,8 @@ a {text-decoration: none;
 	width:520px;
 	border: 1px solid black;
 	float: right;
-	font-family: arial; 
-	color: 	black;
+	font-size:20px;
+
 }
 
 #year-2-narrative, #year-4-narrative {
@@ -464,8 +468,39 @@ a {text-decoration: none;
 	width:520px;
 	border: 1px solid black;
 	float: left;
-	font-family: arial; 
-	color: 	black;
+	font-size:20px;
+	
+}
+
+#year-1-narrative p, #year-3-narrative p, #year-2-narrative p, #year-4-narrative p {
+	padding:10px;
+	text-align:justify;
+}
+
+#career{
+	height:500px;
+	width:750px;
+		
+}
+
+#career p {
+	
+	margin-top:20px;
+	font-size:20px;
+	text-align:justify;
+}
+
+#job-examples, #job-examples ul{
+	margin-top:20px;
+}
+
+#job-examples ul{
+	font-size:20px;
+}
+
+#job-examples li{
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .item1,.item2 {height:50px;
