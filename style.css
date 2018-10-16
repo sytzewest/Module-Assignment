@@ -141,7 +141,7 @@ a {text-decoration: none;
 .course_overview_text{width: 1112px;
 					  height: 75px;
 					  float: left;
-					  text-align: center;	
+					  margin-left: 233px;
 					  
 }
 
@@ -188,7 +188,7 @@ a {text-decoration: none;
 /*Student Experience CSS*/
 
 .student_experience_column{width: 1112px;
-						   height: 750px;
+						   height: 1050px;
 						   float: left;
 }
 
@@ -218,6 +218,18 @@ a {text-decoration: none;
 			  float: left;
 			  padding-left: 35px;
 			  text-align: justify;
+}
+
+.student_emmen_image{width:850px;
+					 height: 270px;
+					 float: left;
+					 text-align: center;
+					 padding-top: 10px;	
+}
+
+.student-image_woman{width:250px;
+					 height: 250px;
+					 float: left;
 }
 
 .button {width:263px;  
