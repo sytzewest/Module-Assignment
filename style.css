@@ -123,8 +123,7 @@ a {text-decoration: none;
 
 .course_overview {width: 1112px; 
 				  height: 75px; 
-				  float: left;
-				  padding-left: 25px;
+				  float: left;	
 }
 
 .list_overview {width: 900px;
@@ -155,6 +154,10 @@ a {text-decoration: none;
 
 .course {width: 650px; 
          height: 250px;
+		 float: left;
+		 padding-left: 30px;
+		 padding-top: 7px;
+=======
     		 float: left;
     		 padding-left: 20px;
     		 padding-top: 7px;
@@ -373,6 +376,8 @@ a {text-decoration: none;
 
 #course-description p {margin: 10px;}
 
+
+
 .item1,.item2, {height:50px;
         width:200px;
         float:left;
@@ -415,8 +420,76 @@ a {text-decoration: none;
                                               text-align: center;
                                             }
 
+#course-description p {margin: 10px;}
+
+#row-1, #row-2,#row-3,#row-4 {
+	height:260px;
+	width:740px;
+	margin-bottom:10px;
+	margin-top:10px;	
+}
+
+#year-1, #year-3{
+	float:left;
+	height:240px;
+	width:190px;
+	
+	
+		
+
+}
+
+#year-2, #year-4{
+	float:right;
+	height:240px;
+	width:190px;
+	
+	
+}
+
+#year-1 p,#year-3 p, #year-2 p, #year-4 p{
+	text-align:center;
+    width: 60%;
+    padding: 10px;
+	margin-top:90px;
+	margin-left:60px;
+	font-size:30px;
+	font-weight: bold;
+	font-family: arial; 
+	color: 	#0000FF;
+	text-transform:uppercase;
+}
+
+ 
+#year-1-narrative, #year-3-narrative {
+	height:250px;
+	width:520px;
+	border: 1px solid black;
+	float: right;
+	font-family: arial; 
+	color: 	black;
+}
+
+#year-2-narrative, #year-4-narrative {
+	height:250px;
+	width:520px;
+	border: 1px solid black;
+	float: left;
+	font-family: arial; 
+	color: 	black;
+}
+
+.item1,.item2 {height:50px;
+        width:200px;
+        float:left;
+      }
+.img {height:100px;
+    width:30px;
+    float:left;}
+
 #admission-requirements:hover, #application-process:hover {border:2px solid black;}
 
+<<<<<<< HEAD
 #application-process {margin-left: 6px;}
 
 #admission-requirements h3, #application-process h3 {margin-top: 60px;}
@@ -441,8 +514,13 @@ a {text-decoration: none;
 
 .requirement_lang {height:330px;}
 
+=======
+
+#application-process {margin: 0px;}
+>>>>>>> 0a560b9376210a135396b091503002379e2b2e83
 
 /*FOOTER*/
+
 
 .footer {float:left;
         width:362px;
