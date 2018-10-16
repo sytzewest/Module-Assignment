@@ -10,13 +10,18 @@ body {background-image:url(pics/bg10.jpg);
       color:steelblue;
       font-family: serif, sans-serif; }
 
-#container, #admission_req_container {width:1112px;
+#container, #admission_req_container, #admission_apply_container 
+          {width:1112px;
             height:1770px;
             background-color: rgba(255,255,255,0.70);
             margin:0 auto;
         }
 
 #admission_req_container {height: 1470px;}
+
+#admission_apply_container {height:1620px;}
+
+
 
 #container-overview {width:1112px;
             height:1500px;
@@ -28,11 +33,13 @@ body {background-image:url(pics/bg10.jpg);
            height:200px;
          }
 
-#body, #admission_req_body {width:1112px;
+#body, #admission_req_body, #admission_apply_body {width:1112px;
       height:1200px;
     }
 
 #admission_req_body {height: 1050px;}
+
+
 
 #footer {width:1112px;
          height:250px;
@@ -141,8 +148,13 @@ a {text-decoration: none;
 .course_overview_text{width: 1112px;
 					  height: 75px;
 					  float: left;
+<<<<<<< HEAD
+					  margin-left: 233px;
+					  
+=======
 					  text-align: center;
 
+>>>>>>> 55a8e7736851d3a3c0f3f25b7e209dc77c4035ff
 }
 
 .course_menu {width: 200px;
@@ -193,7 +205,7 @@ a {text-decoration: none;
 /*Student Experience CSS*/
 
 .student_experience_column{width: 1112px;
-						   height: 750px;
+						   height: 1050px;
 						   float: left;
 }
 
@@ -223,6 +235,18 @@ a {text-decoration: none;
 			  float: left;
 			  padding-left: 35px;
 			  text-align: justify;
+}
+
+.student_emmen_image{width:850px;
+					 height: 270px;
+					 float: left;
+					 text-align: center;
+					 padding-top: 10px;	
+}
+
+.student-image_woman{width:250px;
+					 height: 250px;
+					 float: left;
 }
 
 .button {width:263px;
@@ -357,6 +381,8 @@ a {text-decoration: none;
         margin:20px 0px;
         }
 
+
+		
 #box1-menu, .enrol-button, #enrol-button, #open-day {width: 260px;
             height:200px;
             margin:5px;
@@ -396,7 +422,7 @@ a {text-decoration: none;
           font-size: 30px;
         }
 
-#open-day p a{margin: 70px 5px 0px 0px;
+#open-day p a {margin: 70px 5px 0px 0px;
               float:right;
               color:white;
               border-radius: 5px;
@@ -413,20 +439,28 @@ a {text-decoration: none;
            margin:0px;
            }
 
-#course-summary {height:50px;
+
+#course-summary-me {height:50px;
                   margin-top: 135px;
-                  text-align: center;}
+                  text-align: center;
+                }
+
 
 #course-img {margin-bottom: 5px;}
 
 #course-img img {width:380px;
                 height: 300px;}
 
-#course-summary p{
+#title{
 	font-weight:bold;
-	font-size:30px;
+	font-size:22px;
 	text-align:center;
-	padding-top:150px;
+	padding-top:50px;
+}
+#subtitle {
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
 }
 
 #bus-info-man-img-dimension{
@@ -615,9 +649,6 @@ a {text-decoration: none;
 	margin-left:60px;
 	font-size:30px;
 	font-weight: bold;
-
-	font-family: arial;
-	color: 	#0000FF;
 	text-transform:uppercase;
 }
 
@@ -625,23 +656,20 @@ a {text-decoration: none;
 #year-1-narrative, #year-3-narrative {
 	height:250px;
 	width:520px;
-	border: 1px solid black;
+	border: 3px solid steelblue;
 	float: right;
-
 	font-size:20px;
+  text-indent: 30px;
 
-
-	font-family: arial;
-	color: 	black;
 }
 
 #year-2-narrative, #year-4-narrative {
 	height:250px;
 	width:520px;
-	border: 1px solid black;
+	border: 3px solid steelblue;
 	float: left;
-
 	font-size:20px;
+  text-indent: 30px;
 
 }
 
@@ -663,6 +691,12 @@ a {text-decoration: none;
 	text-align:justify;
 }
 
+#job-prospects{
+	height:400px;
+	width:760px;
+}
+
+
 #job-examples, #job-examples ul{
 	margin-top:20px;
 }
@@ -671,13 +705,11 @@ a {text-decoration: none;
 	font-size:20px;
 }
 
+
+
 #job-examples li{
 	margin-top:10px;
 	margin-bottom:10px;
-
-	font-family: arial;
-	color: 	black;
-
 }
 
 .item1,.item2 {height:50px;
@@ -710,12 +742,33 @@ a {text-decoration: none;
 
 .requirement:not(:last-child) {border-bottom: 1px solid black;
                              }
-.requirement ul{list-style-position: inside;}
+.requirement ul, .step ul {list-style-position: inside;}
 
 .requirement_lang {height:330px;}
 
+/*COURSE PROGRAMME*/
 
+#app-deadlines {width:800px;
+                height:100px;
+                text-align: justify;
+                margin: 20px 0px;
 
+              }
+
+#application-steps {width:800px;
+                    float:left;
+                    height:800px;}
+
+#app-deadlines ul {list-style-position: inside;}
+
+.step {width:800px;
+      float:left;
+      text-align: justify;
+      margin:10px 0px;
+    }
+
+.step h2 {border-bottom: 1px solid black;
+          border-top: 1px solid black;}
 
 /*FOOTER*/
 
