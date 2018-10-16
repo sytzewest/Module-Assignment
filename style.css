@@ -324,17 +324,17 @@ a {text-decoration: none;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 22px;
-  
+
 }
 #parabody{
   margin: auto;
   height: 700px;
-  width: 800px; 
+  width: 800px;
 }
 .textofpara{
   color: black;
   padding-bottom: 16px;
-  
+
 }
 #textofpara1{
   color: black;
@@ -526,6 +526,43 @@ a {text-decoration: none;
   margin-top:135px;
   text-align: center;
 
+}
+
+/*EDUCATION CONCEPT PAGE*/
+#EC-Text
+{
+  Width:380px;
+  height:320px;
+  float:left;
+  padding-top:10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+#EC-Image
+{
+  background-color: lightblue;
+  width:370px;
+  height:320px;
+  float:left;
+}
+#EC-Body
+{
+  width:1112px;
+  height:800px;
+}
+#EC-box
+{
+  width:760px;
+  height:800px;
+  float:left;
+  margin:20px 0px;
+}
+#EC-container
+{
+  width:1112px;
+  height:1230px;
+  background-color: rgba(255,255,255,0.70);
+  margin:0 auto;
 }
 
 /*ADMISSION PAGE*/
