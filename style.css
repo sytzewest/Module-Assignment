@@ -337,13 +337,19 @@ a {text-decoration: none;
               }
 
 #course-img, #course-summary {width:380px;
-            height:400px;
+            height:320px;
             float:left;
            margin:0px;
            }
 
-#course-img {background-color: steelblue;
-            margin-bottom: 5px;}
+#course-summary {height:50px;
+                  margin-top: 135px;
+                  text-align: center;}
+
+#course-img {margin-bottom: 5px;}
+
+#course-img img {width:380px;
+                height: 300px;}
 
 #course-info-title, #course-description-title {width:700px;
                     height:30px;
@@ -352,11 +358,10 @@ a {text-decoration: none;
                     color:white;
                   }
 
-#course-description,#course-info {width:700px;
+#course-description, #course-info {width:700px;
                     height:400px;
                     margin:10px 0px;
                     float:left;
-                    border:5px solid steelblue;
                     text-align: justify;
                     text-indent: 25px;
                     font-size: 20px;
@@ -513,7 +518,7 @@ a {text-decoration: none;
 
 .requirement_lang {height:330px;}
 
-#application-process {margin: 0px;}
+
 
 
 /*FOOTER*/
