@@ -390,22 +390,23 @@ a {text-decoration: none;
            margin:0px;
            }
 
-#course-summary {height:50px;
-                  margin-top: 135px;
-                  text-align: center;}
 
 #course-img {margin-bottom: 5px;}
 
 #course-img img {width:380px;
                 height: 300px;}
 
-#course-summary p{
+#title{
 	font-weight:bold;
-	font-size:30px;
+	font-size:22px;
 	text-align:center;
-	padding-top:150px;
+	padding-top:50px;
 }
-
+#subtitle {
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+}
 #bus-info-man-img-dimension{
 	width:380px;
 	height:400px;
@@ -545,9 +546,6 @@ a {text-decoration: none;
 	margin-left:60px;
 	font-size:30px;
 	font-weight: bold;
-
-	font-family: arial;
-	color: 	#0000FF;
 	text-transform:uppercase;
 }
 
@@ -557,12 +555,8 @@ a {text-decoration: none;
 	width:520px;
 	border: 1px solid black;
 	float: right;
-
 	font-size:20px;
 
-
-	font-family: arial;
-	color: 	black;
 }
 
 #year-2-narrative, #year-4-narrative {
@@ -570,7 +564,6 @@ a {text-decoration: none;
 	width:520px;
 	border: 1px solid black;
 	float: left;
-
 	font-size:20px;
 	
 }
