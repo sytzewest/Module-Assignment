@@ -116,8 +116,7 @@ a {text-decoration: none;
 
 .course_overview {width: 1112px; 
 				  height: 75px; 
-				  float: left;
-				  padding-left: 25px;
+				  float: left;	
 }
 
 .list_overview {width: 900px;
@@ -148,6 +147,10 @@ a {text-decoration: none;
 
 .course {width: 650px; 
          height: 250px;
+		 float: left;
+		 padding-left: 30px;
+		 padding-top: 7px;
+=======
     		 float: left;
     		 padding-left: 20px;
     		 padding-top: 7px;
