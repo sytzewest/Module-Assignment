@@ -596,18 +596,20 @@ a {text-decoration: none;
 #year-1-narrative, #year-3-narrative {
 	height:250px;
 	width:520px;
-	border: 1px solid black;
+	border: 3px solid steelblue;
 	float: right;
 	font-size:20px;
+  text-indent: 30px;
 
 }
 
 #year-2-narrative, #year-4-narrative {
 	height:250px;
 	width:520px;
-	border: 1px solid black;
+	border: 3px solid steelblue;
 	float: left;
 	font-size:20px;
+  text-indent: 30px;
 
 }
 
