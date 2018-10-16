@@ -10,12 +10,14 @@ body {background-image:url(pics/bg10.jpg);
       color:steelblue;
       font-family: serif, sans-serif; }
 
-#container {width:1112px;
+#container, #admission_req_container {width:1112px;
             height:1770px;
             background-color: rgba(255,255,255,0.70);
             margin:0 auto;
         }
-		
+
+#admission_req_container {height: 1470px;}
+
 #container-overview {width:1112px;
             height:1500px;
             background-color: rgba(255,255,255,0.70);
@@ -23,13 +25,18 @@ body {background-image:url(pics/bg10.jpg);
         }
 		
 #header   {width:1112px;
-           height:200px;}
+           height:200px;
+         }
 
-#body {width:1112px;
-      height:1200px;}
+#body, #admission_req_body {width:1112px;
+      height:1200px;
+    }
+
+#admission_req_body {height: 1050px;}
 
 #footer {width:1112px;
-         height:250px;} 
+         height:250px;
+       } 
 
 hr {width:1072px;
     height:1px;
@@ -294,7 +301,8 @@ a {text-decoration: none;
                         color:white;
                       }
 
-#box1-menu ul li:not(:last-child) {border-bottom: 1px solid black;} 
+#box1-menu ul li:not(:last-child) {border-bottom: 1px solid black;
+                                } 
 
 .enrol-button, #enrol-button {height:50px;}
 
@@ -395,18 +403,44 @@ a {text-decoration: none;
                 float: left;
               }
 
-#admission-requirements, #application-process {width:300px;
+#admission-requirements, #application-process {width:400px;
                                               height:150px;
                                               float:left;
-                                              margin-left: 300px;
+                                              margin-left: 150px;
+                                              margin-right: 6px;
+                                              margin-top: 20px;
                                               background-color: steelblue;
                                               color:white;
-                                              font-size: 40px;
+                                              font-size: 30px;
+                                              text-align: center;
                                             }
 
 #admission-requirements:hover, #application-process:hover {border:2px solid black;}
 
-#application-process {margin: 0px;}
+#application-process {margin-left: 6px;}
+
+#admission-requirements h3, #application-process h3 {margin-top: 60px;}
+
+#admission-content {width:800px;
+                  margin:30px 156px;
+                  height:680px;
+                  float:left;
+                  }
+
+.requirement {width:800px;
+              margin:20px 0px;
+              float: left;
+              height:250px;
+              text-align: justify;
+              text-indent: 20px;
+            }
+
+.requirement:not(:last-child) {border-bottom: 1px solid black;
+                             }
+.requirement ul{list-style-position: inside;}
+
+.requirement_lang {height:330px;}
+
 
 /*FOOTER*/
 
