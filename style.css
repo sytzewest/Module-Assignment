@@ -489,7 +489,6 @@ a {text-decoration: none;
 
 #admission-requirements:hover, #application-process:hover {border:2px solid black;}
 
-<<<<<<< HEAD
 #application-process {margin-left: 6px;}
 
 #admission-requirements h3, #application-process h3 {margin-top: 60px;}
@@ -514,10 +513,8 @@ a {text-decoration: none;
 
 .requirement_lang {height:330px;}
 
-=======
-
 #application-process {margin: 0px;}
->>>>>>> 0a560b9376210a135396b091503002379e2b2e83
+
 
 /*FOOTER*/
 
