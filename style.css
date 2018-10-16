@@ -10,13 +10,16 @@ body {background-image:url(pics/bg10.jpg);
       color:steelblue;
       font-family: serif, sans-serif; }
 
-#container, #admission_req_container {width:1112px;
+#container, #admission_req_container, #admission_apply_container 
+          {width:1112px;
             height:1770px;
             background-color: rgba(255,255,255,0.70);
             margin:0 auto;
         }
 
 #admission_req_container {height: 1470px;}
+
+#admission_apply_container {height:1620px;}
 
 #container-overview {width:1112px;
             height:1500px;
@@ -28,7 +31,7 @@ body {background-image:url(pics/bg10.jpg);
            height:200px;
          }
 
-#body, #admission_req_body {width:1112px;
+#body, #admission_req_body, #admission_apply_body {width:1112px;
       height:1200px;
     }
 
@@ -396,7 +399,7 @@ a {text-decoration: none;
           font-size: 30px;
         }
 
-#open-day p a{margin: 70px 5px 0px 0px;
+#open-day p a {margin: 70px 5px 0px 0px;
               float:right;
               color:white;
               border-radius: 5px;
@@ -412,6 +415,12 @@ a {text-decoration: none;
             float:left;
            margin:0px;
            }
+
+
+#course-summary-me {height:50px;
+                  margin-top: 135px;
+                  text-align: center;
+                }
 
 
 #course-img {margin-bottom: 5px;}
@@ -430,6 +439,7 @@ a {text-decoration: none;
 	font-size:12px;
 	text-align:center;
 }
+
 #bus-info-man-img-dimension{
 	width:380px;
 	height:400px;
@@ -662,12 +672,33 @@ a {text-decoration: none;
 
 .requirement:not(:last-child) {border-bottom: 1px solid black;
                              }
-.requirement ul{list-style-position: inside;}
+.requirement ul, .step ul {list-style-position: inside;}
 
 .requirement_lang {height:330px;}
 
+/*COURSE PROGRAMME*/
 
+#app-deadlines {width:800px;
+                height:100px;
+                text-align: justify;
+                margin: 20px 0px;
 
+              }
+
+#application-steps {width:800px;
+                    float:left;
+                    height:800px;}
+
+#app-deadlines ul {list-style-position: inside;}
+
+.step {width:800px;
+      float:left;
+      text-align: justify;
+      margin:10px 0px;
+    }
+
+.step h2 {border-bottom: 1px solid black;
+          border-top: 1px solid black;}
 
 /*FOOTER*/
 
