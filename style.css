@@ -149,13 +149,9 @@ a {text-decoration: none;
 .course_overview_text{width: 1112px;
 					  height: 75px;
 					  float: left;
-<<<<<<< HEAD
 					  margin-left: 233px;
-					  
-=======
 					  text-align: center;
 
->>>>>>> 55a8e7736851d3a3c0f3f25b7e209dc77c4035ff
 }
 
 .course_menu {width: 200px;
@@ -452,22 +448,6 @@ a {text-decoration: none;
 #course-img img {width:380px;
                 height: 300px;}
 
-#title{
-	font-weight:bold;
-	font-size:22px;
-	text-align:center;
-	padding-top:50px;
-}
-#subtitle {
-	font-weight:bold;
-	font-size:12px;
-	text-align:center;
-}
-
-#bus-info-man-img-dimension{
-	width:380px;
-	height:400px;
-}
 
 #course-info-title, #course-description-title {width:700px;
                     height:30px;
@@ -713,6 +693,8 @@ a {text-decoration: none;
 
 #course-description p {margin: 10px;}
 
+/* BUSINESS INFO MANAGEMENT*/
+
 #row-1, #row-2,#row-3,#row-4 {
 	height:260px;
 	width:740px;
@@ -805,6 +787,24 @@ a {text-decoration: none;
 	margin-top:10px;
 	margin-bottom:10px;
 }
+
+#title{
+	font-weight:bold;
+	font-size:22px;
+	text-align:center;
+	padding-top:50px;
+}
+#subtitle {
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+}
+
+#bus-info-man-img-dimension{
+	width:380px;
+	height:400px;
+}
+
 
 .item1,.item2 {height:50px;
         width:200px;
