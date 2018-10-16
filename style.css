@@ -11,7 +11,7 @@ body {background-image:url(pics/bg10.jpg);
       font-family: serif, sans-serif; }
 
 #container, #admission_req_container, #admission_apply_container,
-#me-career-container
+#me-career-container, #BIM-container
           {width:1112px;
             height:1770px;
             background-color: rgba(255,255,255,0.70);
@@ -695,6 +695,18 @@ a {text-decoration: none;
 
 /* BUSINESS INFO MANAGEMENT*/
 
+#BIM-container{height:1115px;}
+
+#BIM-body {
+	height:700px;
+	width:1112px;
+}
+
+#BIM-box2 {
+	height:700px;
+	width:760px;
+	float:left;
+}
 #row-1, #row-2,#row-3,#row-4 {
 	height:260px;
 	width:740px;
@@ -800,7 +812,7 @@ a {text-decoration: none;
 	text-align:center;
 }
 
-#bus-info-man-img-dimension{
+#BIM-img-dimension{
 	width:380px;
 	height:400px;
 }
