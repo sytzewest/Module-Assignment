@@ -141,8 +141,8 @@ a {text-decoration: none;
 .course_overview_text{width: 1112px;
 					  height: 75px;
 					  float: left;
-					  text-align: center;	
-					  
+					  text-align: center;
+
 }
 
 .course_menu {width: 200px;
@@ -173,7 +173,7 @@ a {text-decoration: none;
 		 padding-top: 7px;
 }
 
-.course_text {width: 300px; 
+.course_text {width: 300px;
          height: 200px;
 		 padding: 25px;
 		 float: left;
@@ -220,7 +220,7 @@ a {text-decoration: none;
 			  text-align: justify;
 }
 
-.button {width:263px;  
+.button {width:263px;
         height:70px;
         background-color:#CBD8E3;
         opacity: 0.80;
@@ -453,6 +453,29 @@ a {text-decoration: none;
 #BankImg {
   width:380px;
   height:400px;
+}
+#Banking-description
+{
+  width:700px;
+  height:300px;
+  margin:10px 0px;
+  float:left;
+  text-align: justify;
+  text-indent: 25px;
+  font-size: 20px;
+}
+#BankingBody
+{
+  width:1112px;
+  height:1000px;
+
+}
+#BankingContainer
+{
+  width:1112px;
+  height:1470px;
+  background-color: rgba(255,255,255,0.70);
+  margin:0 auto;
 }
 
 /*ADMISSION PAGE*/
