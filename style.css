@@ -262,7 +262,30 @@ a {text-decoration: none;
                        text-indent:30px;
                        margin: 50px 50px 80px 50px;
                      }
-
+/*Exchange students*/
+.paraheader{
+  color: steelblue;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  
+}
+#parabody{
+  margin: auto;
+  height: 700px;
+  width: 800px; 
+}
+.textofpara{
+  color: black;
+  padding-bottom: 16px;
+  
+}
+#textofpara1{
+  color: black;
+  padding: 17px;
+  font-size: 16px;
+}
 /*COURSE-GENERAL INFO*/
 
 #box1 {width:270px;
