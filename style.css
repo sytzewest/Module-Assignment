@@ -10,26 +10,33 @@ body {background-image:url(pics/bg10.jpg);
       color:steelblue;
       font-family: serif, sans-serif; }
 
-#container {width:1112px;
+#container, #admission_req_container {width:1112px;
             height:1770px;
             background-color: rgba(255,255,255,0.70);
             margin:0 auto;
         }
-		
+
+#admission_req_container {height: 1470px;}
+
 #container-overview {width:1112px;
             height:1500px;
             background-color: rgba(255,255,255,0.70);
             margin:0 auto;
         }
-		
-#header   {width:1112px;
-           height:200px;}
 
-#body {width:1112px;
-      height:1200px;}
+#header   {width:1112px;
+           height:200px;
+         }
+
+#body, #admission_req_body {width:1112px;
+      height:1200px;
+    }
+
+#admission_req_body {height: 1050px;}
 
 #footer {width:1112px;
-         height:250px;} 
+         height:250px;
+       }
 
 hr {width:1072px;
     height:1px;
@@ -44,7 +51,7 @@ a {text-decoration: none;
  /*HEADER*/
 
 .logo {float:left;
-      width:212px; 
+      width:212px;
       height:200px;}
 
 .logo img {width:212px;
@@ -52,7 +59,7 @@ a {text-decoration: none;
          }
 
 #lang-menu {float:left;
-          width:900px; 
+          width:900px;
            height:40px;
           }
 #lang-menu img {width:15px;
@@ -90,38 +97,52 @@ a {text-decoration: none;
 
 /*BODY*/
 
-#banner {width:1112px;  
-        height:500px; 
+#banner {width:1112px;
+        height:500px;
         margin-left:15px;
         margin-top:150px;
       }
 
  .content {background-image: url("pics/banner3.jpg");
           width:1082px;
-          height:500px; 
-          background-size:cover; 
+          height:500px;
+          background-size:cover;
         }
 
 .column {float:left;
       width:10px;
-      height:500px;  
+      height:500px;
       background-color:white;
            }
 
 .cct1 {float:left;
    background-color: rgba(0,0,0,);
-      height:500px; 
-      width:263px;  
+      height:500px;
+      width:263px;
   }
 
-.course_overview {width: 1112px; 
-				  height: 75px; 
-				  float: left;	
+.course_overview {width: 1112px;
+				  height: 75px;
+				  float: left;
 }
 
+/*Course Overview CSS*/
+
 .list_overview {width: 900px;
-				height: 1000px; 
+				height: 1000px;
 				float: left;
+}
+
+.empty_space_overview{width: 35px;
+				      height: 1000px;
+					  float: left;
+}
+
+.course_overview_text{width: 1112px;
+					  height: 75px;
+					  float: left;
+					  text-align: center;	
+					  
 }
 
 .course_menu {width: 200px;
@@ -145,17 +166,17 @@ a {text-decoration: none;
 				   height: 650px;
 				   float: left;}
 
-.course {width: 650px; 
+.course {width: 650px;
          height: 250px;
 		 float: left;
 		 padding-left: 30px;
 		 padding-top: 7px;
+
 		float: left;
 		padding-left: 20px;
 		padding-top: 7px;
+
 }
-
-
 
 .course_text {width: 300px; 
          height: 200px;
@@ -163,17 +184,52 @@ a {text-decoration: none;
 		 float: left;
 }
 
-.image_course {width: 275px; 
-			   height: 150px; 
-			   float: left; 
+.image_course {width: 275px;
+			   height: 150px;
+			   float: left;
 			   padding: 10px
+}
+
+/*Student Experience CSS*/
+
+.student_experience_column{width: 1112px;
+						   height: 750px;
+						   float: left;
+}
+
+.student_menu {width: 200px;
+			  height: 750px;
+			  float: left;
+}
+
+.student_menu_header{width:200px;
+					 height: 40px;
+					 float: left;
+					 background-color: steelblue;
+					 color: white;
+					 padding-left: 15px;
+					 padding-top: 15px;
+}
+
+.student_menu_text{width: 200px;
+				   height: 695px;
+				   float: left;
+				   padding-top: 15px;
+				   text-align: center;
+}
+
+.student_text{width: 850px;
+			  height: 750px;
+			  float: left;
+			  padding-left: 35px;
+			  text-align: justify;
 }
 
 .button {width:263px;  
         height:70px;
         background-color:#CBD8E3;
         opacity: 0.80;
-         margin-top:370px; 
+         margin-top:370px;
         margin-right: 0px;
       }
 
@@ -236,7 +292,7 @@ a {text-decoration: none;
 .additional {width:1082px;
              height:300px;
              margin:30px 15px 0px 15px;
-             background-color:rgba(70,130,180,0.30); 
+             background-color:rgba(70,130,180,0.30);
             font-size: 17px;}
 
 .additional .title {font-size: 30px;
@@ -269,7 +325,7 @@ a {text-decoration: none;
        margin:20px 33px;
        border-right: 1px solid black;
        height:600px;
-      
+
      }
 
 #box2 {width:760px;
@@ -296,7 +352,8 @@ a {text-decoration: none;
                         color:white;
                       }
 
-#box1-menu ul li:not(:last-child) {border-bottom: 1px solid black;} 
+#box1-menu ul li:not(:last-child) {border-bottom: 1px solid black;
+                                }
 
 .enrol-button, #enrol-button {height:50px;}
 
@@ -328,13 +385,19 @@ a {text-decoration: none;
               }
 
 #course-img, #course-summary {width:380px;
-            height:400px;
+            height:320px;
             float:left;
            margin:0px;
            }
 
-#course-img {background-color: steelblue;
-            margin-bottom: 5px;}
+#course-summary {height:50px;
+                  margin-top: 135px;
+                  text-align: center;}
+
+#course-img {margin-bottom: 5px;}
+
+#course-img img {width:380px;
+                height: 300px;}
 
 #course-summary p{
 	font-weight:bold;
@@ -355,11 +418,10 @@ a {text-decoration: none;
                     color:white;
                   }
 
-#course-description,#course-info {width:700px;
+#course-description, #course-info {width:700px;
                     height:400px;
                     margin:10px 0px;
                     float:left;
-                    border:5px solid steelblue;
                     text-align: justify;
                     text-indent: 25px;
                     font-size: 20px;
@@ -388,7 +450,7 @@ a {text-decoration: none;
 
 .img {height:100px;
     width:30px;
-    float:left; 
+    float:left;
   }
 
 .icon_Alt {width:30px;
@@ -404,6 +466,12 @@ a {text-decoration: none;
         font-size: 13px;
       }
 
+/*BANKING AND INSURANCE PAGE*/
+#BankImg {
+  width:380px;
+  height:400px;
+}
+
 /*ADMISSION PAGE*/
 
 #admission-menu {width:1200px;
@@ -411,13 +479,16 @@ a {text-decoration: none;
                 float: left;
               }
 
-#admission-requirements, #application-process {width:300px;
+#admission-requirements, #application-process {width:400px;
                                               height:150px;
                                               float:left;
-                                              margin-left: 300px;
+                                              margin-left: 150px;
+                                              margin-right: 6px;
+                                              margin-top: 20px;
                                               background-color: steelblue;
                                               color:white;
-                                              font-size: 40px;
+                                              font-size: 30px;
+                                              text-align: center;
                                             }
 
 #course-description p {margin: 10px;}
@@ -426,20 +497,21 @@ a {text-decoration: none;
 	height:260px;
 	width:740px;
 	margin-bottom:10px;
-	margin-top:10px;	
+	margin-top:10px;
 }
 
 #year-1, #year-3{
 	float:left;
 	height:240px;
 	width:190px;
-	
+
 }
 
 #year-2, #year-4{
 	float:right;
 	height:240px;
 	width:190px;
+
 }
 
 #year-1 p,#year-3 p, #year-2 p, #year-4 p{
@@ -450,17 +522,24 @@ a {text-decoration: none;
 	margin-left:60px;
 	font-size:30px;
 	font-weight: bold;
+
+	font-family: arial;
+	color: 	#0000FF;
 	text-transform:uppercase;
 }
 
- 
+
 #year-1-narrative, #year-3-narrative {
 	height:250px;
 	width:520px;
 	border: 1px solid black;
 	float: right;
+
 	font-size:20px;
 
+
+	font-family: arial;
+	color: 	black;
 }
 
 #year-2-narrative, #year-4-narrative {
@@ -468,6 +547,7 @@ a {text-decoration: none;
 	width:520px;
 	border: 1px solid black;
 	float: left;
+
 	font-size:20px;
 	
 }
@@ -501,6 +581,10 @@ a {text-decoration: none;
 #job-examples li{
 	margin-top:10px;
 	margin-bottom:10px;
+
+	font-family: arial;
+	color: 	black;
+
 }
 
 .item1,.item2 {height:50px;
@@ -513,8 +597,32 @@ a {text-decoration: none;
 
 #admission-requirements:hover, #application-process:hover {border:2px solid black;}
 
+#application-process {margin-left: 6px;}
 
-#application-process {margin: 0px;}
+#admission-requirements h3, #application-process h3 {margin-top: 60px;}
+
+#admission-content {width:800px;
+                  margin:30px 156px;
+                  height:680px;
+                  float:left;
+                  }
+
+.requirement {width:800px;
+              margin:20px 0px;
+              float: left;
+              height:250px;
+              text-align: justify;
+              text-indent: 20px;
+            }
+
+.requirement:not(:last-child) {border-bottom: 1px solid black;
+                             }
+.requirement ul{list-style-position: inside;}
+
+.requirement_lang {height:330px;}
+
+
+
 
 /*FOOTER*/
 
@@ -545,12 +653,3 @@ a {text-decoration: none;
 #copyright {font-size: 10px;
           float:right;
           margin-top:100px;}
- 
-
-
-
-
-
-
-
-
