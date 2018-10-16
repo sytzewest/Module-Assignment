@@ -217,6 +217,7 @@ a {text-decoration: none;
 			  height: 750px;
 			  float: left;
 			  padding-left: 35px;
+			  text-align: justify;
 }
 
 .button {width:263px;  
