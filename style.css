@@ -121,14 +121,34 @@ a {text-decoration: none;
       width:263px;
   }
 
+<<<<<<< HEAD
 .course_overview {width: 1112px;
 				  height: 75px;
 				  float: left;
+=======
+/*Course Overview CSS*/
+
+.course_overview {width: 1112px; 
+				  height: 75px; 
+				  float: left;	
+>>>>>>> f64b7a8519b1bdda44aaf5cbb6b16996f4de4f69
 }
 
 .list_overview {width: 900px;
 				height: 1000px;
 				float: left;
+}
+
+.empty_space_overview{width: 35px;
+				      height: 1000px;
+					  float: left;
+}
+
+.course_overview_text{width: 1112px;
+					  height: 75px;
+					  float: left;
+					  text-align: center;	
+					  
 }
 
 .course_menu {width: 200px;
@@ -157,15 +177,15 @@ a {text-decoration: none;
 		 float: left;
 		 padding-left: 30px;
 		 padding-top: 7px;
-=======
-    		 float: left;
-    		 padding-left: 20px;
-    		 padding-top: 7px;
 }
 
+<<<<<<< HEAD
 
 
 .course_text {width: 300px;
+=======
+.course_text {width: 300px; 
+>>>>>>> f64b7a8519b1bdda44aaf5cbb6b16996f4de4f69
          height: 200px;
 		 padding: 25px;
 		 float: left;
@@ -177,7 +197,45 @@ a {text-decoration: none;
 			   padding: 10px
 }
 
+<<<<<<< HEAD
 .button {width:263px;
+=======
+/*Student Experience CSS*/
+
+.student_experience_column{width: 1112px;
+						   height: 750px;
+						   float: left;
+}
+
+.student_menu {width: 200px;
+			  height: 750px;
+			  float: left;
+}
+
+.student_menu_header{width:200px;
+					 height: 40px;
+					 float: left;
+					 background-color: steelblue;
+					 color: white;
+					 padding-left: 15px;
+					 padding-top: 15px;
+}
+
+.student_menu_text{width: 200px;
+				   height: 695px;
+				   float: left;
+				   padding-top: 15px;
+				   text-align: center;
+}
+
+.student_text{width: 850px;
+			  height: 750px;
+			  float: left;
+			  padding-left: 35px;
+}
+
+.button {width:263px;  
+>>>>>>> f64b7a8519b1bdda44aaf5cbb6b16996f4de4f69
         height:70px;
         background-color:#CBD8E3;
         opacity: 0.80;
