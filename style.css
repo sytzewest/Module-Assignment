@@ -121,18 +121,12 @@ a {text-decoration: none;
       width:263px;
   }
 
-<<<<<<< HEAD
 .course_overview {width: 1112px;
 				  height: 75px;
 				  float: left;
-=======
-/*Course Overview CSS*/
-
-.course_overview {width: 1112px; 
-				  height: 75px; 
-				  float: left;	
->>>>>>> f64b7a8519b1bdda44aaf5cbb6b16996f4de4f69
 }
+
+/*Course Overview CSS*/
 
 .list_overview {width: 900px;
 				height: 1000px;
@@ -179,13 +173,7 @@ a {text-decoration: none;
 		 padding-top: 7px;
 }
 
-<<<<<<< HEAD
-
-
-.course_text {width: 300px;
-=======
 .course_text {width: 300px; 
->>>>>>> f64b7a8519b1bdda44aaf5cbb6b16996f4de4f69
          height: 200px;
 		 padding: 25px;
 		 float: left;
@@ -197,9 +185,6 @@ a {text-decoration: none;
 			   padding: 10px
 }
 
-<<<<<<< HEAD
-.button {width:263px;
-=======
 /*Student Experience CSS*/
 
 .student_experience_column{width: 1112px;
@@ -236,7 +221,6 @@ a {text-decoration: none;
 }
 
 .button {width:263px;  
->>>>>>> f64b7a8519b1bdda44aaf5cbb6b16996f4de4f69
         height:70px;
         background-color:#CBD8E3;
         opacity: 0.80;
