@@ -10,7 +10,8 @@ body {background-image:url(pics/bg10.jpg);
       color:steelblue;
       font-family: serif, sans-serif; }
 
-#container, #admission_req_container, #admission_apply_container 
+#container, #admission_req_container, #admission_apply_container,
+#me-career-container, #BIM-container
           {width:1112px;
             height:1770px;
             background-color: rgba(255,255,255,0.70);
@@ -20,6 +21,8 @@ body {background-image:url(pics/bg10.jpg);
 #admission_req_container {height: 1470px;}
 
 #admission_apply_container {height:1620px;}
+
+
 
 #container-overview {width:1112px;
             height:1500px;
@@ -36,6 +39,8 @@ body {background-image:url(pics/bg10.jpg);
     }
 
 #admission_req_body {height: 1050px;}
+
+
 
 #footer {width:1112px;
          height:250px;
@@ -144,6 +149,7 @@ a {text-decoration: none;
 .course_overview_text{width: 1112px;
 					  height: 75px;
 					  float: left;
+					  margin-left: 233px;
 					  text-align: center;
 
 }
@@ -196,7 +202,7 @@ a {text-decoration: none;
 /*Student Experience CSS*/
 
 .student_experience_column{width: 1112px;
-						   height: 750px;
+						   height: 1050px;
 						   float: left;
 }
 
@@ -226,6 +232,18 @@ a {text-decoration: none;
 			  float: left;
 			  padding-left: 35px;
 			  text-align: justify;
+}
+
+.student_emmen_image{width:850px;
+					 height: 270px;
+					 float: left;
+					 text-align: center;
+					 padding-top: 10px;	
+}
+
+.student-image_woman{width:250px;
+					 height: 250px;
+					 float: left;
 }
 
 .button {width:263px;
@@ -327,17 +345,17 @@ a {text-decoration: none;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 22px;
-  
+
 }
 #parabody{
   margin: auto;
   height: 700px;
-  width: 800px; 
+  width: 800px;
 }
 .textofpara{
   color: black;
   padding-bottom: 16px;
-  
+
 }
 #textofpara1{
   color: black;
@@ -360,12 +378,14 @@ a {text-decoration: none;
 
      }
 
-#box2 {width:760px;
+#box2, #me-box2 {width:760px;
         height:1000px;
         float:left;
         margin:20px 0px;
         }
 
+
+		
 #box1-menu, .enrol-button, #enrol-button, #open-day {width: 260px;
             height:200px;
             margin:5px;
@@ -434,22 +454,6 @@ a {text-decoration: none;
 #course-img img {width:380px;
                 height: 300px;}
 
-#title{
-	font-weight:bold;
-	font-size:22px;
-	text-align:center;
-	padding-top:50px;
-}
-#subtitle {
-	font-weight:bold;
-	font-size:12px;
-	text-align:center;
-}
-
-#bus-info-man-img-dimension{
-	width:380px;
-	height:400px;
-}
 
 #course-info-title, #course-description-title {width:700px;
                     height:30px;
@@ -544,6 +548,135 @@ a {text-decoration: none;
   text-align: center;
 
 }
+/*AEROSPACE PAGE*/
+#AeroImg {
+  width:380px;
+  height:400px;
+}
+#Aero-description
+{
+  width:700px;
+  height:200px;
+  margin:10px 0px;
+  float:left;
+  text-align: justify;
+  text-indent: 25px;
+  font-size: 20px;
+}
+#AeroBody
+{
+  width:1112px;
+  height:1000px;
+
+}
+#AeroContainer
+{
+  width:1112px;
+  height:1470px;
+  background-color: rgba(255,255,255,0.70);
+  margin:0 auto;
+}
+#course-summary-Aero
+{
+  width:380px;
+  height:50px;
+  float:left;
+  margin:0px;
+  margin-top:135px;
+  text-align: center;
+
+}
+
+
+/*EDUCATION CONCEPT PAGE*/
+#EC-Text
+{
+  width:530px;
+  height:320px;
+  float:left;
+  padding-top:50px;
+  padding-left: 115px;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+#EC-Image
+{
+  width:500px;
+  height:320px;
+  float:left;
+}
+
+#EC-Image img {width:530px;
+              height: 320px;
+              margin:30px 115px;}
+
+#EC-Body
+{
+  width:1112px;
+  height:800px;
+}
+
+#EC-box
+{
+  width:760px;
+  height:800px;
+  float:left;
+  margin:20px 0px;
+}
+
+#EC-container
+{
+  width:1112px;
+  height:1230px;
+  background-color: rgba(255,255,255,0.70);
+  margin:0 auto;
+}
+
+#EC-title {width: 760px;
+          float:left;
+          height: 60px;
+          margin:20px 0px;}
+
+/*MECHANICAL ENGINEERING CAREER*/
+
+#me-career{
+  height:500px;
+  width:750px;
+
+}
+
+#me-career p {
+
+  margin-top:20px;
+  font-size:20px;
+  text-align:justify;
+}
+
+#me-job-prospects{
+  height:300px;
+  width:760px;
+}
+
+
+#me-job-examples, #me-job-examples ul{
+  margin-top:20px;
+}
+
+#me-job-examples ul{
+  font-size:20px;
+}
+
+#me-box2 {height:650px;}
+
+#me-job-examples li{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#me-career-body {height:650px;} 
+
+#me-career-container {height:1110px;}
 
 /*ADMISSION PAGE*/
 
@@ -566,6 +699,20 @@ a {text-decoration: none;
 
 #course-description p {margin: 10px;}
 
+/* BUSINESS INFO MANAGEMENT*/
+
+#BIM-container{height:1115px;}
+
+#BIM-body {
+	height:700px;
+	width:1112px;
+}
+
+#BIM-box2 {
+	height:700px;
+	width:760px;
+	float:left;
+}
 #row-1, #row-2,#row-3,#row-4 {
 	height:260px;
 	width:740px;
@@ -579,6 +726,7 @@ a {text-decoration: none;
 	width:190px;
 
 }
+
 
 #year-2, #year-4{
 	float:right;
@@ -602,18 +750,20 @@ a {text-decoration: none;
 #year-1-narrative, #year-3-narrative {
 	height:250px;
 	width:520px;
-	border: 1px solid black;
+	border: 3px solid steelblue;
 	float: right;
 	font-size:20px;
+  text-indent: 30px;
 
 }
 
 #year-2-narrative, #year-4-narrative {
 	height:250px;
 	width:520px;
-	border: 1px solid black;
+	border: 3px solid steelblue;
 	float: left;
 	font-size:20px;
+  text-indent: 30px;
 
 }
 
@@ -635,6 +785,12 @@ a {text-decoration: none;
 	text-align:justify;
 }
 
+#job-prospects{
+	height:400px;
+	width:760px;
+}
+
+
 #job-examples, #job-examples ul{
 	margin-top:20px;
 }
@@ -643,14 +799,30 @@ a {text-decoration: none;
 	font-size:20px;
 }
 
+
+
 #job-examples li{
 	margin-top:10px;
 	margin-bottom:10px;
-
-	font-family: arial;
-	color: 	black;
-
 }
+
+#title{
+	font-weight:bold;
+	font-size:22px;
+	text-align:center;
+	padding-top:50px;
+}
+#subtitle {
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+}
+
+#BIM-img-dimension{
+	width:380px;
+	height:400px;
+}
+
 
 .item1,.item2 {height:50px;
         width:200px;
