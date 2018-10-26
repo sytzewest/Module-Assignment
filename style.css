@@ -151,7 +151,6 @@ a {text-decoration: none;
 					  float: left;
 					  margin-left: 233px;
 					  text-align: center;
-
 }
 
 .course_menu {width: 200px;
@@ -202,7 +201,7 @@ a {text-decoration: none;
 /*Student Experience CSS*/
 
 .student_experience_column{width: 1112px;
-						   height: 1050px;
+						   height: 1300px;
 						   float: left;
 }
 
@@ -227,23 +226,47 @@ a {text-decoration: none;
 				   text-align: center;
 }
 
-.student_text{width: 850px;
-			  height: 750px;
-			  float: left;
-			  padding-left: 35px;
-			  text-align: justify;
+.student_text{
+	width: 850px;
+	height: 750px;
+	float: left;
+	padding-left: 35px;
+	text-align: justify;
 }
 
-.student_emmen_image{width:850px;
-					 height: 270px;
-					 float: left;
-					 text-align: center;
-					 padding-top: 10px;	
+.student_emmen_image{
+	width:850px;
+	height: 270px;
+	float: left;
+	text-align: center;
+	padding-top: 10px;	
 }
 
-.student-image_woman{width:250px;
-					 height: 250px;
-					 float: left;
+.student-image_person{
+	width:250px;
+	height: 250px;
+	float: left;
+}
+
+.student-image_person_right{
+	width:250px;
+	height: 250px;
+	float: right;
+}
+
+.student_quote_box {
+	width: 850px;
+	height: 300px;
+	float: left;
+}
+
+
+.student_quote {
+	width: 575px;
+	height: 225px;
+	float: left;
+	padding-left: 25px;
+	text-align: center;
 }
 
 .button {width:263px;
