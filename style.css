@@ -149,7 +149,6 @@ a {text-decoration: none;
 .course_overview_text{width: 1112px;
 					  height: 75px;
 					  float: left;
-					  margin-left: 233px;
 					  text-align: center;
 }
 
@@ -198,11 +197,33 @@ a {text-decoration: none;
 			   padding: 10px
 }
 
+/*Gallery CSS*/
+
+.gallery {
+	width: 1112px;
+	height: 1300px;
+	float: left;
+}
+
+.gallery_header {
+	width: 1112px;
+	height: 75px;
+	float: left;
+	text-align: center;
+}
+
 /*Student Experience CSS*/
 
 .student_experience_column{width: 1112px;
 						   height: 1300px;
 						   float: left;
+}
+
+.student_experience_text{width: 1112px;
+					  height: 75px;
+					  float: left;
+					  text-align: center;
+					  padding-left: 100px;
 }
 
 .student_menu {width: 200px;
@@ -232,6 +253,10 @@ a {text-decoration: none;
 	float: left;
 	padding-left: 35px;
 	text-align: justify;
+}
+
+.students_images_experience {
+	border-radius: 50%;
 }
 
 .student_emmen_image{
