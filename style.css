@@ -10,7 +10,7 @@ body {background-image:url(pics/bg10.jpg);
       color:steelblue;
       font-family: serif, sans-serif; }
 
-#container, #admission_req_container, #admission_apply_container,
+#container, #admission_req_container, #admission_apply_container, #contact-container,
 #me-career-container, #BIM-container
           {width:1112px;
             height:1770px;
@@ -22,7 +22,7 @@ body {background-image:url(pics/bg10.jpg);
 
 #admission_apply_container {height:1620px;}
 
-
+#contact-container {height:1350px;}
 
 #container-overview {width:1112px;
             height:1500px;
