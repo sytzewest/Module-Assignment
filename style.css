@@ -1398,4 +1398,17 @@ a
 	width:1112px;
   height:900px;
 }
-
+#bigdiv{
+  width: 400px;
+  height: 225px;
+}
+#students_ima 
+{
+	border-radius: 50%;
+}
+.qbox{
+  width: 700px;
+}
+#student_q{
+  width: 300px;
+}
