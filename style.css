@@ -642,6 +642,7 @@ a {text-decoration: none;
   width:530px;
   height:320px;
   float:left;
+  font-size:20px;
   padding-top:50px;
   padding-left: 115px;
   text-align: justify;
@@ -831,6 +832,7 @@ a {text-decoration: none;
 	margin-top:20px;
 	font-size:20px;
 	text-align:justify;
+	text-indent: 30px;
 }
 
 #job-prospects{
@@ -959,3 +961,26 @@ a {text-decoration: none;
 #copyright {font-size: 10px;
           float:right;
           margin-top:100px;}
+		  
+		  
+/* Contact Page*/		  
+
+.contact_form input[type="text"], .contact_form input[type="email"]{border-radius:0; height:40px; margin-bottom:10px; width:100%}
+.contact_form textarea{width:100%; height:150px; border-radius:0px; margin-bottom:10px}
+.contact_form input[type="submit"]{float:right; height:40px; line-height:40px; width:100px; border:1px solid }
+ 
+#banner-1
+	{
+		width:1112px;
+        height:400px;
+		margin-top:20px;
+		margin-bottom:20px;
+		float:left;
+		
+	}
+	
+#contact-body{
+	width:1112px;
+  height:900px;
+}
+
