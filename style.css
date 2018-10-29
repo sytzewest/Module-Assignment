@@ -264,7 +264,7 @@ a {text-decoration: none;
 	height: 270px;
 	float: left;
 	text-align: center;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 
 .student-image_person{
@@ -433,7 +433,7 @@ a {text-decoration: none;
         }
 
 
-		
+
 #box1-menu, .enrol-button, #enrol-button, #open-day {width: 260px;
             height:200px;
             margin:5px;
@@ -596,6 +596,47 @@ a {text-decoration: none;
   text-align: center;
 
 }
+/*CAMPUS LIFE*/
+#debate {
+  height: 340px;
+  width: 600px;
+}
+#robotics {
+  height: 340px;
+  width: 600px;
+}
+#sports {
+  height: 340px;
+  width: 600px;
+}
+#canteen {
+  height: 340px;
+  width: 600px;
+}
+#student_experience_column{
+  width: 1112px;
+	height: 2100px;
+	float: left;
+}
+#container-campus_life
+{
+  width:1112px;
+  height:2600px;
+  background-color: rgba(255,255,255,0.70);
+  margin:0 auto;
+}
+#student_text{
+	width: 850px;
+	height: 750px;
+	float: left;
+	padding-left: 35px;
+	text-align: justify;
+}
+#paragraph
+{
+  margin-top:10px;
+  margin-bottom:10px;
+}
 /*AEROSPACE PAGE*/
 #AeroImg {
   width:380px;
@@ -722,7 +763,7 @@ a {text-decoration: none;
   margin-bottom:10px;
 }
 
-#me-career-body {height:650px;} 
+#me-career-body {height:650px;}
 
 #me-career-container {height:1110px;}
 
