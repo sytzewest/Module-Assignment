@@ -1,219 +1,317 @@
 /*browser reset*/
 
-*{margin:0;
-padding:0;}
+*
+{
+  margin:0;
+  padding:0;
+}
 
-body {background-image:url(pics/bg10.jpg);
-      background-size: cover;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      color:steelblue;
-      font-family: serif, sans-serif; }
+body 
+{
+    background-image:url(pics/bg10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:steelblue;
+    font-family:  Trebuchet, serif, sans-serif; 
+}
 
 #container, #admission_req_container, #admission_apply_container, #contact-container,
-#me-career-container, #BIM-container
-          {width:1112px;
-            height:1770px;
-            background-color: rgba(255,255,255,0.70);
-            margin:0 auto;
-        }
+#me-career-container, #BIM-container, #container-student-experience
+{
+  width:1112px;
+  height:1770px;
+  background-color: rgba(255,255,255,0.70);
+  margin:0 auto;
+}
 
-#admission_req_container {height: 1470px;}
+#admission_req_container 
+{
+  height: 1470px;
+}
 
-#admission_apply_container {height:1620px;}
+#admission_apply_container 
+{
+  height:1620px;
+}
 
-#contact-container {height:1350px;}
+#contact-container 
+{
+  height:1350px;
+}
 
-#container-overview {width:1112px;
-            height:1500px;
-            background-color: rgba(255,255,255,0.70);
-            margin:0 auto;
-        }
+#container-overview 
+{
+   width:1112px;
+   height:1500px;
+   background-color: rgba(255,255,255,0.70);
+   margin:0 auto;
+}
 
-#header   {width:1112px;
-           height:200px;
-         }
+#container-student-experience 
+{
+    height: 1730px;
+}
 
-#body, #admission_req_body, #admission_apply_body {width:1112px;
-      height:1200px;
-    }
+#header   
+{
+  width:1112px;
+  height:200px;
+}
 
-#admission_req_body {height: 1050px;}
+#body, #admission_req_body, #admission_apply_body 
+{
+  width:1112px;
+  height:1200px;
+}
 
+#admission_req_body 
+{
+  height: 1050px;
+}
 
+#footer 
+{
+  width:1112px;
+  height:250px;
+}
 
-#footer {width:1112px;
-         height:250px;
-       }
-
-hr {width:1072px;
+hr 
+{
+    width:1072px;
     height:1px;
     border:1px;
     background-color:silver;
     margin:0px 20px;
-    }
+}
 
-a {text-decoration: none;
-  color:steelblue;}
+a 
+{
+  text-decoration: none;
+  color:steelblue;
+}
 
  /*HEADER*/
 
-.logo {float:left;
+.logo 
+{
+      float:left;
       width:212px;
-      height:200px;}
+      height:200px;
+}
 
-.logo img {width:212px;
-           height:150px;
-         }
+.logo img 
+{   
+    width:212px;
+    height:150px;
+}
 
-#lang-menu {float:left;
-          width:900px;
-           height:40px;
-          }
-#lang-menu img {width:15px;
-               height:15px;
-               padding-top:11px;
-             }
+#lang-menu 
+{
+  float:left;
+  width:900px;
+  height:40px;
+}
 
-#lang-menu p {float:right;
-             font-size: 15px;
-             font-style: italic;
-            padding-top:10px;
-           padding-right:20px;
-         }
+#lang-menu img 
+{
+  width:15px;
+  height:15px;
+  padding-top:11px;
+}
 
-#lang-menu a:selected {text-decoration: underline;}
+#lang-menu p 
+{
+  float:right;
+  font-size: 15px;
+  font-style: italic;
+  padding-top:10px;
+  padding-right:20px;
+}
 
-#menu-bar {float:left;
-         width:900px;
-         height:160px;
-       }
+#lang-menu a:selected 
+{
+  text-decoration: underline;
+}
 
-#menu {list-style-type: none;
-              float:right;
-              font-size: 25px;
-            margin:70px 40px;}
+#menu-bar 
+{
+  float:left;
+  width:900px;
+  height:160px;
+}
 
-#menu li {display:inline;
-          padding:10px 20px;
-          }
+#menu 
+{
+  list-style-type: none;
+  float:right;
+  font-size: 25px;
+  margin:70px 40px;
+}
 
-#menu li:not(:last-child){ border-right:1px solid black;}
+#menu li 
+{
+  display:inline;
+  padding:10px 20px;
+}
 
-#menu li a:hover {background-color: steelblue;
-                  color:white;}
+#menu li:not(:last-child)
+{ 
+  border-right:1px solid black;
+}
+
+#menu li a:hover 
+{
+  background-color: steelblue;
+  color:white;
+}
 
 /*BODY*/
 
-#banner {width:1112px;
-        height:500px;
-        margin-left:15px;
-        margin-top:150px;
-      }
+#banner 
+{
+    width:1112px;
+    height:500px;
+    margin-left:15px;
+    margin-top:150px;
+}
 
- .content {background-image: url("pics/banner4.jpg");
-          width:1082px;
-          height:500px;
-          background-size:cover;
-        }
+ .content 
+{
+  background-image: url("pics/banner4.jpg");
+  width:1082px;
+  height:500px;
+  background-size:cover;
+}
 
-.column {float:left;
-      width:10px;
-      height:500px;
-      background-color:white;
-           }
+.column 
+{
+  float:left;
+  width:10px;
+  height:500px;
+  background-color:white;
+}
 
-.cct1 {float:left;
-   background-color: rgba(0,0,0,);
-      height:500px;
-      width:263px;
-  }
+.cct1 
+{
+  float:left;
+  background-color: rgba(0,0,0,);
+  height:500px;
+  width:263px;
+}
 
-.course_overview {width: 1112px;
-				  height: 75px;
-				  float: left;
+.course_overview 
+{
+  width: 1112px;
+	height: 75px;
+	float: left;
 }
 
 /*Course Overview CSS*/
 
-.list_overview {width: 900px;
-				height: 1000px;
-				float: left;
+.list_overview 
+{
+  width: 900px;
+  height: 1000px;
+	float: left;
 }
 
-.empty_space_overview{width: 35px;
-				      height: 1000px;
-					  float: left;
+.empty_space_overview
+{
+  width: 35px;
+	height: 1000px;
+	float: left;
 }
 
-.course_overview_text{width: 1112px;
-					  height: 75px;
-					  float: left;
-					  text-align: center;
+.course_overview_text
+{
+  width: 1112px;
+	height: 75px;
+	float: left;
+	text-align: center;
 }
 
-.course_menu {width: 200px;
-			  height: 750px;
-			  float: left;
+.course_menu 
+{
+  width: 200px;
+  height: 750px;
+  float: left;
 }
 
-.search {width: 200px;
-			  height: 65px;
-			  float: left;
-			  background-color: steelblue;
+.search 
+{
+  width: 200px;
+	height: 65px;
+	float: left;
+	background-color: steelblue;
 }
 
-.search_text {width: 200px;
-			  height: 30px;
-			  padding-top: 15px;
-			  text-align: center;
+.search_text 
+{
+  width: 200px;
+	height: 30px;
+	padding-top: 15px;
+	text-align: center;
 }
 
-.course_menu_form {width: 200px;
-				   height: 650px;
-				   float: left;}
-
-.course {width: 650px;
-         height: 250px;
-		 float: left;
-		 padding-left: 30px;
-		 padding-top: 7px;
+.course_menu_form 
+{
+  width: 200px;
+	height: 650px;
+	float: left;
 }
 
-.course_text {width: 300px;
-         height: 200px;
-		 padding: 25px;
-		 float: left;
+.course
+{
+  width: 650px;
+  height: 250px;
+  float: left;
+  padding-left: 30px;
+  padding-top: 7px;
 }
 
-.image_course {width: 275px;
-			   height: 150px;
-			   float: left;
-			   padding: 10px
+.course_text 
+{
+  width: 300px;
+  height: 200px;
+	padding: 25px;
+	float: left;
+}
+
+.image_course 
+{
+  width: 275px;
+	height: 150px;
+	float: left;
+	padding: 10px
 }
 
 /*Gallery CSS*/
 
-.gallery {
+.gallery 
+{
 	width: 100%;
 	height: 1300px;
 	float: left;
 }
 
-.gallery_header {
+.gallery_header 
+{
 	width: 100%;
 	height: 75px;
 	float: left;
 	text-align: center;
 }
 
-.gallery_data_box {
+.gallery_data_box 
+{
 	width: 25%;
 	height: 250px;
 	float: left;
 }
 
-.upload_holder {
+.upload_holder 
+{
 	width: 200px;
 	height: 100px;
 	margin: auto;
@@ -221,40 +319,51 @@ a {text-decoration: none;
 
 /*Student Experience CSS*/
 
-.student_experience_column{width: 1112px;
-						   height: 1225px;
-						   float: left;
+.student_experience_column
+{
+  width: 1112px;
+	height: 1225px;
+	float: left;
 }
 
-.student_experience_text{width: 1112px;
-					  height: 75px;
-					  float: left;
-					  text-align: center;
-					  padding-left: 100px;
+.student_experience_text
+{
+  width: 1112px;
+  height: 75px;
+	float: left;
+	text-align: center;
+	padding-left: 100px;
 }
 
-.student_menu {width: 200px;
-			  height: 750px;
-			  float: left;
+.student_menu 
+{
+  width: 200px;
+	height: 750px;
+	float: left;
 }
 
-.student_menu_header{width:200px;
-					 height: 40px;
-					 float: left;
-					 background-color: steelblue;
-					 color: white;
-					 padding-left: 15px;
-					 padding-top: 15px;
+.student_menu_header
+{
+  width:200px;
+	height: 40px;
+  float: left;
+	background-color: steelblue;
+	color: white;
+	padding-left: 15px;
+	padding-top: 15px;
 }
 
-.student_menu_text{width: 200px;
-				   height: 695px;
-				   float: left;
-				   padding-top: 15px;
-				   text-align: center;
+.student_menu_text
+{
+  width: 200px;
+	height: 695px;
+	float: left;
+	padding-top: 15px;
+	text-align: center;
 }
 
-.student_text{
+.student_text
+{
 	width: 850px;
 	height: 750px;
 	float: left;
@@ -262,11 +371,13 @@ a {text-decoration: none;
 	text-align: justify;
 }
 
-.students_images_experience {
+.students_images_experience 
+{
 	border-radius: 50%;
 }
 
-.student_emmen_image{
+.student_emmen_image
+{
 	width:850px;
 	height: 270px;
 	float: left;
@@ -274,26 +385,30 @@ a {text-decoration: none;
 	padding-top: 10px;
 }
 
-.student-image_person{
+.student-image_person
+{
 	width:250px;
 	height: 250px;
 	float: left;
 }
 
-.student-image_person_right{
+.student-image_person_right
+{
 	width:250px;
 	height: 250px;
 	float: right;
 }
 
-.student_quote_box {
+.student_quote_box 
+{
 	width: 850px;
 	height: 300px;
 	float: left;
 }
 
 
-.student_quote {
+.student_quote 
+{
 	width: 575px;
 	height: 225px;
 	float: left;
@@ -301,123 +416,183 @@ a {text-decoration: none;
 	text-align: center;
 }
 
-.button {width:263px;
-        height:70px;
-        background-color:#CBD8E3;
-        opacity: 0.80;
-         margin-top:370px;
-        margin-right: 0px;
-      }
+.button 
+{
+  width:263px;
+  height:70px;
+  background-color:#CBD8E3;
+  opacity: 0.80;
+  margin-top:370px;
+  margin-right: 0px;
+}
 
-.button p {font-size: 30px;
-         font-style: italic;
-         text-align: center;
-       }
+.button p 
+{
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
 
-.button1 p{padding:0px 50px;}
-.button2 p{padding:15px 50px;}
-.button4 p {padding:0px 50px;}
+.button1 p
+{
+  padding:0px 50px;
+}
 
-.box {
-     height:100px;
-     width: 263px;
-     background-color: rgba(70,130,180,0.10);
-     margin-top: -130px;
-     color:steelblue;
-     font-size: 30px;
-     text-align: center;
-     font-style: italic;
-      border:3px  steelblue;
-     border-radius: 20px;
+.button2 p
+{
+  padding:15px 50px;
+}
 
-      }
+.button4 p 
+{
+  padding:0px 50px;
+}
 
-.icon {width:40px;
-      height:40px;
-      align-self: center;
-      margin-top:10px;
-    }
-#apply-box {width:1062px;
-          height:200px;
-          border:10px solid;
-          border-color: rgba(70,130,180,0.30);
-           margin: 30px 15px 0px 15px;
-          }
+.box 
+{
+  height:100px;
+  width: 263px;
+  background-color: rgba(70,130,180,0.10);
+  margin-top: -130px;
+  color:steelblue;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  border:3px  steelblue;
+  border-radius: 20px;
+}
 
-#apply-text, #apply-button {height:200px;
-             width:700px;
-             float:left;
-             font-size:40px;
-         }
+.icon 
+{
+  width:40px;
+  height:40px;
+  align-self: center;
+  margin-top:10px;
+}
 
-#apply-button {width:362px;}
+#apply-box 
+{
+  width:1062px;
+  height:200px;
+  border:10px solid;
+  border-color: rgba(70,130,180,0.30);
+  margin: 30px 15px 0px 15px;
+}
 
-#apply-text p {text-align:center;
-               margin: 80px auto;}
+#apply-text, #apply-button 
+{
+  height:200px;
+  width:700px;
+  float:left;
+  font-size:40px;
+}
 
-.apply-button {padding:15px 40px;
-               background-color: rgba(70,130,180,0.30);
-               margin:75px auto;
-              color:white;
-              font-size:20px;
-              border:1px steelblue;
-               }
+#apply-button 
+{
+  width:362px;
+}
 
-.apply-button:hover {border:3px solid steelblue;}
+#apply-text p 
+{
+  text-align:center;
+  margin: 80px auto;
+}
 
-.additional {width:1082px;
-             height:300px;
-             margin:30px 15px 0px 15px;
-             background-color:rgba(70,130,180,0.30);
-            font-size: 17px;}
+.apply-button 
+{
+  padding:15px 40px;
+  background-color: rgba(70,130,180,0.30);
+  margin:75px auto;
+  color:white;
+  font-size:20px;
+  border:1px steelblue;
+}
 
-.additional .title {font-size: 30px;
-                    height:30px;
-                    color:white;
-                    }
+.apply-button:hover 
+{
+  border:3px solid steelblue;
+}
 
-.title p {text-align: left;
-         margin-left: 66px;}
+.additional 
+{
+  width:1082px;
+  height:300px;
+  margin:30px 15px 0px 15px;
+  background-color:rgba(70,130,180,0.30);
+  font-size: 17px;
+}
 
-#student-img, #student-experience {float:left;
-              width:382px;
-              height:280px;
-              }
-#student-experience {width:700px;}
+.additional .title 
+{
+  font-size: 30px;
+  height:30px;
+  color:white;
+}
 
-#student-img img {width:250px;
-                 height:190px;
-                 margin:35px 66px 35px 66px;}
+.title p 
+{
+  text-align: left;
+  margin-left: 66px;
+}
 
-#student-experience p {text-align: justify;
-                       text-indent:30px;
-                       margin: 50px 50px 80px 50px;
-                     }
+#student-img, #student-experience 
+{
+  float:left;
+  width:382px;
+  height:280px;
+}
+
+#student-experience 
+{
+  width:700px;
+}
+
+#student-img img 
+{
+  width:250px;
+  height:190px;
+  margin:35px 66px 35px 66px;
+}
+
+#student-experience p 
+{
+  text-align: justify;
+  text-indent:30px;
+  margin: 50px 50px 80px 50px;
+}
+
 /*Exchange students*/
-.paraheader{
+.paraheader
+{
   color: steelblue;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 22px;
-
 }
-#parabody{
+
+#parabody
+{
   margin: auto;
   height: 700px;
   width: 800px;
 }
-.textofpara{
+
+.textofpara
+{
   color: black;
   padding-bottom: 16px;
-
 }
-#textofpara1{
+
+#textofpara1
+{
   color: black;
   padding: 17px;
   font-size: 16px;
 }
-#calander img{
+
+#calander img
+{
   height: 500px;
   width: 600px;
   float: left;
@@ -425,151 +600,207 @@ a {text-decoration: none;
 }
 /*COURSE-GENERAL INFO*/
 
-#box1 {width:270px;
-       float:left;
-       margin:20px 33px;
-       border-right: 1px solid black;
-       height:600px;
+#box1 
+{
+  width:270px;
+  float:left;
+  margin:20px 33px;
+  border-right: 1px solid black;
+  height:600px;
+}
 
-     }
+#box2, #me-box2 
+{
+  width:760px;
+  height:1000px;
+  float:left;
+  margin:20px 0px;
+}
 
-#box2, #me-box2 {width:760px;
-        height:1000px;
-        float:left;
-        margin:20px 0px;
-        }
+#box1-menu, .enrol-button, #enrol-button, #open-day 
+{
+  width: 260px;
+  height:200px;
+  margin:5px;
+  float:left;
+}
 
+#box1-menu ul 
+{
+  list-style-type: none;
+}
 
+#box1-menu ul li 
+{
+  padding-bottom: 3px;
+}
 
-#box1-menu, .enrol-button, #enrol-button, #open-day {width: 260px;
-            height:200px;
-            margin:5px;
-           float:left;
-         }
+#box1-menu ul li a, #open-day p a 
+{
+  text-decoration: none;
+  font-size: 25px;
+}
 
-#box1-menu ul {list-style-type: none;}
+#box1-menu ul li a:hover 
+{
+  background-color: steelblue;
+  color:white;
+}
 
-#box1-menu ul li {padding-bottom: 3px;}
+#box1-menu ul li:not(:last-child) 
+{
+  border-bottom: 1px solid black;
+}
 
-#box1-menu ul li a, #open-day p a {text-decoration: none;
-                  font-size: 25px;
-                 }
+.enrol-button, #enrol-button 
+{
+  height:50px;
+}
 
-#box1-menu ul li a:hover {background-color: steelblue;
-                        color:white;
-                      }
+#enrol-button 
+{
+  margin-right:10px;
+  width:255px;
+  background-color: steelblue;
+  font-size: 20px;
+  color:white;
+  border:none;
+}
 
-#box1-menu ul li:not(:last-child) {border-bottom: 1px solid black;
-                                }
+#open-day 
+{
+  background-color: rgba(70,130,180,0.50);
+  border-radius: 20px;
+  color:white;
+  text-align: center;
+  margin-top:20px;
+  font-size: 30px;
+}
 
-.enrol-button, #enrol-button {height:50px;}
+#open-day p a 
+{
+  margin: 70px 5px 0px 0px;
+  float:right;
+  color:white;
+  border-radius: 5px;
+}
 
-#enrol-button {margin-right:10px;
-              width:255px;
-              background-color: steelblue;
-              font-size: 20px;
-              color:white;
-              border:none;
-            }
+#open-day-date 
+{
+  width:260px;
+  height:70px;
+  margin-top: 20px;
+}
 
-#open-day {background-color: rgba(70,130,180,0.50);
-          border-radius: 20px;
-          color:white;
-          text-align: center;
-          margin-top:20px;
-          font-size: 30px;
-        }
+#course-img, #course-summary 
+{
+  width:380px;
+  height:320px;
+  float:left;
+  margin:0px;
+}
 
-#open-day p a {margin: 70px 5px 0px 0px;
-              float:right;
-              color:white;
-              border-radius: 5px;
-             }
-
-#open-day-date {width:260px;
-                height:70px;
-                margin-top: 20px;
-              }
-
-#course-img, #course-summary {width:380px;
-            height:320px;
-            float:left;
-           margin:0px;
-           }
-
-
-#course-summary-me {height:50px;
-                  margin-top: 135px;
-                  text-align: center;
-                }
-
-
-#course-img {margin-bottom: 5px;}
-
-#course-img img {width:380px;
-                height: 300px;}
-
-
-#course-info-title, #course-description-title {width:700px;
-                    height:30px;
-                    background-color: steelblue;
-                    float:left;
-                    color:white;
-                  }
-
-#course-description, #course-info {width:700px;
-                    height:400px;
-                    margin:10px 0px;
-                    float:left;
-                    text-align: justify;
-                    text-indent: 25px;
-                    font-size: 20px;
-                  }
-
-#course-info {height:300px;
-              border:none;
-              display: flex;
-              flex-flow: row wrap;
-            }
-
-#course-info .item {width:200px;
-                    height:100px;
-                    margin:5px;
-                    border:1px solid steelblue;
-                  }
-
-#course-description p {margin: 10px;}
+#course-summary-me 
+{
+  height:50px;
+  margin-top: 135px;
+  text-align: center;
+}
 
 
+#course-img 
+{
+  margin-bottom: 5px;
+}
 
-.item1,.item2, {height:50px;
-        width:200px;
-        float:left;
-      }
+#course-img img 
+{
+  width:380px;
+  height: 300px;
+}
 
-.img {height:100px;
-    width:30px;
-    float:left;
-  }
 
-.icon_Alt {width:30px;
-      height: 30px;
-      float:left;
-      margin-left: 5px;
-    }
+#course-info-title, #course-description-title 
+{
+  width:700px;
+  height:30px;
+  background-color: steelblue;
+  float:left;
+  color:white;
+}
 
-.item h4 {text-align:center;
-          }
+#course-description, #course-info 
+{
+  width:700px;
+  height:400px;
+  margin:10px 0px;
+  float:left;
+  text-align: justify;
+  text-indent: 25px;
+  font-size: 20px;
+}
 
-.item p {text-align:center;
-        font-size: 13px;
-      }
+#course-info 
+{
+  height:300px;
+  border:none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#course-info .item 
+{
+  width:200px;
+  height:100px;
+  margin:5px;
+  border:1px solid steelblue;
+}
+
+#course-description p 
+{
+  margin: 10px;
+}
+
+.item1,.item2, 
+{
+  height:50px;
+  width:200px;
+  float:left;
+}
+
+.img 
+{
+  height:100px;
+  width:30px;
+  float:left;
+}
+
+.icon_Alt 
+{
+  width:30px;
+  height: 30px;
+  float:left;
+  margin-left: 5px;
+}
+
+.item h4 
+{
+  text-align:center;
+}
+
+.item p 
+{
+  text-align:center;
+  font-size: 13px;
+}
 
 /*BANKING AND INSURANCE PAGE*/
-#BankImg {
+#BankImg 
+{
   width:380px;
   height:400px;
 }
+
 #Banking-description
 {
   width:700px;
@@ -580,12 +811,14 @@ a {text-decoration: none;
   text-indent: 25px;
   font-size: 20px;
 }
+
 #BankingBody
 {
   width:1112px;
   height:1000px;
 
 }
+
 #BankingContainer
 {
   width:1112px;
@@ -593,6 +826,7 @@ a {text-decoration: none;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
+
 #course-summary-bank
 {
   width:380px;
@@ -601,30 +835,39 @@ a {text-decoration: none;
   margin:0px;
   margin-top:135px;
   text-align: center;
-
 }
 /*CAMPUS LIFE*/
-#debate {
+#debate 
+{
   height: 340px;
   width: 600px;
 }
-#robotics {
+
+#robotics 
+{
   height: 340px;
   width: 600px;
 }
-#sports {
+
+#sports 
+{
   height: 340px;
   width: 600px;
 }
-#canteen {
+
+#canteen 
+{
   height: 340px;
   width: 600px;
 }
-#student_experience_column{
+
+#student_experience_column
+{
   width: 1112px;
 	height: 2100px;
 	float: left;
 }
+
 #container-campus_life
 {
   width:1112px;
@@ -632,23 +875,28 @@ a {text-decoration: none;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
-#student_text{
+
+#student_text
+{
 	width: 850px;
 	height: 750px;
 	float: left;
 	padding-left: 35px;
 	text-align: justify;
 }
+
 #paragraph
 {
   margin-top:10px;
   margin-bottom:10px;
 }
 /*AEROSPACE PAGE*/
-#AeroImg {
+#AeroImg 
+{
   width:380px;
   height:400px;
 }
+
 #Aero-description
 {
   width:700px;
@@ -659,12 +907,13 @@ a {text-decoration: none;
   text-indent: 25px;
   font-size: 20px;
 }
+
 #AeroBody
 {
   width:1112px;
   height:1000px;
-
 }
+
 #AeroContainer
 {
   width:1112px;
@@ -672,6 +921,7 @@ a {text-decoration: none;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
+
 #course-summary-Aero
 {
   width:380px;
@@ -680,10 +930,7 @@ a {text-decoration: none;
   margin:0px;
   margin-top:135px;
   text-align: center;
-
 }
-
-
 /*EDUCATION CONCEPT PAGE*/
 #EC-Text
 {
@@ -704,9 +951,12 @@ a {text-decoration: none;
   float:left;
 }
 
-#EC-Image img {width:530px;
-              height: 320px;
-              margin:30px 115px;}
+#EC-Image img 
+{
+   width:530px;
+   height: 320px;
+   margin:30px 115px;
+ }
 
 #EC-Body
 {
@@ -730,112 +980,141 @@ a {text-decoration: none;
   margin:0 auto;
 }
 
-#EC-title {width: 760px;
+#EC-title {
+          width: 760px;
           float:left;
           height: 60px;
-          margin:20px 0px;}
+          margin:20px 0px;
+        }
 
 /*MECHANICAL ENGINEERING CAREER*/
 
-#me-career{
+#me-career
+{
   height:500px;
   width:750px;
-
 }
 
-#me-career p {
-
+#me-career p 
+{
   margin-top:20px;
   font-size:20px;
   text-align:justify;
 }
 
-#me-job-prospects{
+#me-job-prospects 
+{
   height:300px;
   width:760px;
 }
 
 
-#me-job-examples, #me-job-examples ul{
+#me-job-examples, #me-job-examples ul
+{
   margin-top:20px;
 }
 
-#me-job-examples ul{
+#me-job-examples ul 
+{
   font-size:20px;
 }
 
-#me-box2 {height:650px;}
+#me-box2 
+{
+  height:650px;
+}
 
-#me-job-examples li{
+#me-job-examples li 
+{
   margin-top:10px;
   margin-bottom:10px;
 }
 
-#me-career-body {height:650px;}
+#me-career-body 
+{
+  height:650px;
+}
 
-#me-career-container {height:1110px;}
+#me-career-container 
+{
+  height:1110px;
+}
 
 /*ADMISSION PAGE*/
 
-#admission-menu {width:1200px;
-                height:150px;
-                float: left;
-              }
+#admission-menu 
+{
+     width:1200px;
+     height:150px;
+     float: left;
+}
 
-#admission-requirements, #application-process {width:400px;
-                                              height:150px;
-                                              float:left;
-                                              margin-left: 150px;
-                                              margin-right: 6px;
-                                              margin-top: 20px;
-                                              background-color: steelblue;
-                                              color:white;
-                                              font-size: 30px;
-                                              text-align: center;
-                                            }
+#admission-requirements, #application-process 
+{
+   width:400px;
+   height:150px;
+   float:left;
+   margin-left: 150px;
+   margin-right: 6px;
+   margin-top: 20px;
+   background-color: steelblue;
+   color:white;
+   font-size: 30px;
+   text-align: center;
+}
 
-#course-description p {margin: 10px;}
+#course-description p 
+{
+  margin: 10px;
+}
 
 /* BUSINESS INFO MANAGEMENT*/
 
-#BIM-container{height:1115px;}
+#BIM-container
+{
+  height:1115px;
+}
 
-#BIM-body {
+#BIM-body 
+{
 	height:700px;
 	width:1112px;
 }
 
-#BIM-box2 {
+#BIM-box2 
+{
 	height:700px;
 	width:760px;
 	float:left;
 }
-#row-1, #row-2,#row-3,#row-4 {
+
+#row-1, #row-2,#row-3,#row-4
+{
 	height:260px;
 	width:740px;
 	margin-bottom:10px;
 	margin-top:10px;
 }
 
-#year-1, #year-3{
+#year-1, #year-3
+{
 	float:left;
 	height:240px;
 	width:190px;
-
 }
 
-
-#year-2, #year-4{
+#year-2, #year-4
+{
 	float:right;
 	height:240px;
 	width:190px;
-
 }
 
-#year-1 p,#year-3 p, #year-2 p, #year-4 p{
+#year-1 p,#year-3 p, #year-2 p, #year-4 p
+{
 	text-align:center;
-    width: 60%;
-    padding: 10px;
+  width: 60%;
+  padding: 10px;
 	margin-top:90px;
 	margin-left:60px;
 	font-size:30px;
@@ -844,7 +1123,8 @@ a {text-decoration: none;
 }
 
 
-#year-1-narrative, #year-3-narrative {
+#year-1-narrative, #year-3-narrative 
+{
 	height:250px;
 	width:520px;
 	border: 3px solid steelblue;
@@ -854,7 +1134,8 @@ a {text-decoration: none;
 
 }
 
-#year-2-narrative, #year-4-narrative {
+#year-2-narrative, #year-4-narrative 
+{
 	height:250px;
 	width:520px;
 	border: 3px solid steelblue;
@@ -864,170 +1145,256 @@ a {text-decoration: none;
 
 }
 
-#year-1-narrative p, #year-3-narrative p, #year-2-narrative p, #year-4-narrative p {
+#year-1-narrative p, #year-3-narrative p, #year-2-narrative p, #year-4-narrative p 
+{
 	padding:10px;
 	text-align:justify;
 }
 
-#career{
+#career
+{
 	height:500px;
 	width:750px;
-
 }
 
-#career p {
-
+#career p 
+{
 	margin-top:20px;
 	font-size:20px;
 	text-align:justify;
 	text-indent: 30px;
 }
 
-#job-prospects{
+#job-prospects
+{
 	height:400px;
 	width:760px;
 }
 
 
-#job-examples, #job-examples ul{
+#job-examples, #job-examples ul
+{
 	margin-top:20px;
 }
 
-#job-examples ul{
+#job-examples ul
+{
 	font-size:20px;
 }
 
 
 
-#job-examples li{
+#job-examples li
+{
 	margin-top:10px;
 	margin-bottom:10px;
 }
 
-#title{
+#title
+{
 	font-weight:bold;
 	font-size:22px;
 	text-align:center;
 	padding-top:50px;
 }
-#subtitle {
+
+#subtitle 
+{
 	font-weight:bold;
 	font-size:12px;
 	text-align:center;
 }
 
-#BIM-img-dimension{
+#BIM-img-dimension
+{
 	width:380px;
 	height:400px;
 }
 
 
-.item1,.item2 {height:50px;
+.item1,.item2 
+{
+        height:50px;
         width:200px;
         float:left;
-      }
-.img {height:100px;
+}
+
+.img 
+{
+    height:100px;
     width:30px;
-    float:left;}
+    float:left;
+}
 
-#admission-requirements:hover, #application-process:hover {border:2px solid black;}
+#admission-requirements:hover, #application-process:hover 
+{
+  border:2px solid black;
+}
 
-#application-process {margin-left: 6px;}
+#application-process 
+{
+  margin-left: 6px;
+}
 
-#admission-requirements h3, #application-process h3 {margin-top: 60px;}
+#admission-requirements h3, #application-process h3 
+{
+  margin-top: 60px;
+}
 
-#admission-content {width:800px;
-                  margin:30px 156px;
-                  height:680px;
-                  float:left;
-                  }
+#admission-content 
+{
+    width:800px;
+    margin:30px 156px;
+    height:680px;
+    float:left;
+}
 
-.requirement {width:800px;
-              margin:20px 0px;
-              float: left;
-              height:250px;
-              text-align: justify;
-              text-indent: 20px;
-            }
+.requirement 
+{
+ width:800px;
+ margin:20px 0px;
+ float: left;
+ height:250px;
+ text-align: justify;
+ text-indent: 20px;
+}
 
-.requirement:not(:last-child) {border-bottom: 1px solid black;
-                             }
-.requirement ul, .step ul {list-style-position: inside;}
+.requirement:not(:last-child) 
+{
+  border-bottom: 1px solid black;
+}
 
-.requirement_lang {height:330px;}
+.requirement ul, .step ul 
+{
+  list-style-position: inside;
+}
+
+.requirement_lang 
+{
+  height:330px;
+}
 
 /*COURSE PROGRAMME*/
 
-#app-deadlines {width:800px;
-                height:100px;
-                text-align: justify;
-                margin: 20px 0px;
+#app-deadlines 
+{
+   width:800px;
+   height:100px;
+   text-align: justify;
+   margin: 20px 0px;
+ }
 
-              }
+#application-steps 
+{
+    width:800px;
+    float:left;
+    height:800px;
+}
 
-#application-steps {width:800px;
-                    float:left;
-                    height:800px;}
+#app-deadlines ul 
+{
+  list-style-position: inside;
+}
 
-#app-deadlines ul {list-style-position: inside;}
-
-.step {width:800px;
+.step 
+{
+      width:800px;
       float:left;
       text-align: justify;
       margin:10px 0px;
-    }
+}
 
-.step h2 {border-bottom: 1px solid black;
-          border-top: 1px solid black;}
+.step h2 
+{
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+}
 
 /*FOOTER*/
 
 
-.footer {float:left;
-        width:362px;
-        height:250px;
-        }
+.footer 
+{
+   float:left;
+   width:362px;
+   height:250px;
+}
 
-.footer-title   {   font-size: 20px;
-                    font-weight: 1000;
-                    margin:5px 0px 20px 25px;
-                    }
+.footer-title   
+{   
+   font-size: 20px;
+   font-weight: 1000;
+   margin:5px 0px 20px 25px;
+ }
 
-#address, #quick-links li {font-size: 15px;
-                    margin-left: 25px;
-                   }
+#address, #quick-links li 
+{
+  font-size: 15px;
+  margin-left: 25px;
+}
 
-#quick-links {list-style-type: none;}
+#quick-links 
+{
+  list-style-type: none;
+}
 
-#quick-links a:hover {text-decoration: underline;
-                      background-color: steelblue;
-                      color:white;}
+#quick-links a:hover 
+{
+    text-decoration: underline;
+    background-color: steelblue;
+    color:white;
+}
 
-.social-media img {width:50px;
-                    height:50px;}
+.social-media img 
+{
+  width:50px;
+  height:50px;
+}
 
-#copyright {font-size: 10px;
-          float:right;
-          margin-top:100px;}
+#copyright 
+{
+  font-size: 10px;
+  float:right;
+  margin-top:100px;
+}
 		  
 		  
 /* Contact Page*/		  
 
-.contact_form input[type="text"], .contact_form input[type="email"]{border-radius:0; height:40px; margin-bottom:10px; width:100%}
-.contact_form textarea{width:100%; height:150px; border-radius:0px; margin-bottom:10px}
-.contact_form input[type="submit"]{float:right; height:40px; line-height:40px; width:100px; border:1px solid }
+.contact_form input[type="text"], .contact_form input[type="email"]
+{         
+  border-radius:0;
+  height:40px;
+  margin-bottom:10px;
+  width:100%;
+  }
+.contact_form textarea
+{
+    width:100%;
+    height:150px; 
+    border-radius:0px;
+    margin-bottom:10px;
+}
+.contact_form input[type="submit"]
+{
+    float:right;
+    height:40px; 
+    line-height:40px; 
+    width:100px; 
+    border:1px solid;
+}
  
 #banner-1
-	{
+{
 		width:1112px;
-        height:400px;
+    height:400px;
 		margin-top:20px;
 		margin-bottom:20px;
 		float:left;
-		
-	}
+}
 	
-#contact-body{
+#contact-body
+{
 	width:1112px;
   height:900px;
 }
