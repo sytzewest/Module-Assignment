@@ -669,7 +669,7 @@ a
 
 #open-day 
 {
-  background-color: rgba(70,130,180,0.50);
+  background-color: steelblue;
   border-radius: 20px;
   color:white;
   text-align: center;
@@ -980,12 +980,13 @@ a
   margin:0 auto;
 }
 
-#EC-title {
-          width: 760px;
-          float:left;
-          height: 60px;
-          margin:20px 0px;
-        }
+#EC-title 
+{
+  width: 760px;
+  float:left;
+  height: 60px;
+  margin:20px 0px;
+}
 
 /*MECHANICAL ENGINEERING CAREER*/
 
