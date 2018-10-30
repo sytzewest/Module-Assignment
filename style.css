@@ -16,13 +16,18 @@ body
     font-family:  Trebuchet, serif, sans-serif; 
 }
 
-#container, #admission_req_container, #admission_apply_container, #contact-container,
+#container, #index-container, #admission_req_container, #admission_apply_container, #contact-container,
 #me-career-container, #BIM-container, #container-student-experience
 {
   width:1112px;
   height:1770px;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
+}
+
+#index-container
+{
+  height: 1750px;
 }
 
 #admission_req_container 
@@ -59,10 +64,15 @@ body
   height:200px;
 }
 
-#body, #admission_req_body, #admission_apply_body 
+#body, #admission_req_body, #admission_apply_body, #index-body
 {
   width:1112px;
   height:1200px;
+}
+
+#index-body
+{
+  height: 1300px;
 }
 
 #admission_req_body 
@@ -167,38 +177,6 @@ a
 }
 
 /*BODY*/
-
-#banner 
-{
-    width:1112px;
-    height:500px;
-    margin-left:15px;
-    margin-top:150px;
-}
-
- .content 
-{
-  background-image: url("pics/banner4.jpg");
-  width:1082px;
-  height:500px;
-  background-size:cover;
-}
-
-.column 
-{
-  float:left;
-  width:10px;
-  height:500px;
-  background-color:white;
-}
-
-.cct1 
-{
-  float:left;
-  background-color: rgba(0,0,0,);
-  height:500px;
-  width:263px;
-}
 
 .course_overview 
 {
@@ -416,6 +394,53 @@ a
 	text-align: center;
 }
 
+#info-list
+{
+  width:1112px;
+  height:120px;
+  padding:10px 0px;
+  margin:0 auto;
+  float:left;
+}
+
+.box 
+{
+  height:100px;
+  width: 263px;
+  float:left;
+  background-color: rgba(70,130,180,0.10);
+  margin: 0px 5px;
+  color:steelblue;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  border:3px  steelblue;
+  border-radius: 20px;
+}
+
+.box:first-child
+{
+  margin-left: 15px;
+}
+
+.icon 
+{
+  width:40px;
+  height:40px;
+  align-self: center;
+  margin-top:10px;
+}
+
+#banner 
+{
+    width:1080px;
+    height:500px;
+    margin-left:15px;
+    float:left;
+    background-image: url("pics/banner4.jpg");
+    background-size:cover;
+}
+
 .button 
 {
   width:263px;
@@ -424,6 +449,22 @@ a
   opacity: 0.80;
   margin-top:370px;
   margin-right: 0px;
+  float:left;
+}
+
+.button4 
+{
+  width:262px;
+}
+
+.button:not(:last-child)
+{
+  margin-right: 5px;
+}
+
+.button:not(:first-child)
+{
+  margin-left: 4.6px;
 }
 
 .button p 
@@ -448,28 +489,6 @@ a
   padding:0px 50px;
 }
 
-.box 
-{
-  height:100px;
-  width: 263px;
-  background-color: rgba(70,130,180,0.10);
-  margin-top: -130px;
-  color:steelblue;
-  font-size: 30px;
-  text-align: center;
-  font-style: italic;
-  border:3px  steelblue;
-  border-radius: 20px;
-}
-
-.icon 
-{
-  width:40px;
-  height:40px;
-  align-self: center;
-  margin-top:10px;
-}
-
 #apply-box 
 {
   width:1062px;
@@ -477,6 +496,7 @@ a
   border:10px solid;
   border-color: rgba(70,130,180,0.30);
   margin: 30px 15px 0px 15px;
+  float: left;
 }
 
 #apply-text, #apply-button 
@@ -520,6 +540,7 @@ a
   margin:30px 15px 0px 15px;
   background-color:rgba(70,130,180,0.30);
   font-size: 17px;
+  float: left;
 }
 
 .additional .title 
