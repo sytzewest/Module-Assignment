@@ -1438,3 +1438,38 @@ a
   margin: 0 auto;
   padding-bottom: 15px;
 }
+#students_ima 
+{
+	border-radius: 50%;
+}
+/*What others say*/
+
+.student-image img{
+  width: 150px;
+  height: 150px;
+  align-self: auto;
+ }
+ #box1{
+   float: left;
+ }
+ #box21{
+   height: 600px;
+   margin: 0 auto;
+  
+   float: left;
+ }
+ .students_ima 
+ {
+   border-radius: 50%;
+ }
+ .qbox{
+   width:80%;
+ }
+
+ #what-others-say-container{
+   margin: 0 auto;
+   width: 80%;
+ }
+ #what-others-say-body{
+   width: 60%;
+ }
