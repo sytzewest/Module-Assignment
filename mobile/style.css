@@ -4,6 +4,8 @@
 {
   margin:0;
   padding:0;
+  font-size: 50%;
+
 }
 
 body 
@@ -13,15 +15,15 @@ body
     background-attachment: fixed;
     background-repeat: no-repeat;
     color:steelblue;
-    font-family: Trebuchet, serif, sans-serif; 
+    font-family:  Trebuchet, serif, sans-serif; 
 }
 
 #container, #index-container, #admission_req_container, #admission_apply_container, #contact-container,
 #me-career-container, #BIM-container, #container-student-experience
 {
-  width:1112px;
+  width:100%;
   height:1770px;
-  background-color: rgba(255,255,255,0.70);
+  #background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
 
@@ -47,9 +49,9 @@ body
 
 #container-overview 
 {
-   width:1112px;
+   width:100%;
    height:1500px;
-   background-color: rgba(255,255,255,0.70);
+   #background-color: rgba(255,255,255,0.70);
    margin:0 auto;
 }
 
@@ -60,13 +62,13 @@ body
 
 #header   
 {
-  width:1112px;
+  width:100%;
   height:200px;
 }
 
 #body, #admission_req_body, #admission_apply_body, #index-body
 {
-  width:1112px;
+  width:100%;
   height:1200px;
 }
 
@@ -82,13 +84,13 @@ body
 
 #footer 
 {
-  width:1112px;
+  width:100%;
   height:250px;
 }
 
 hr 
 {
-    width:1072px;
+    width:100%;
     height:1px;
     border:1px;
     background-color:silver;
@@ -119,7 +121,8 @@ a
 #lang-menu 
 {
   float:left;
-  width:900px;
+  padding-left: 70px;
+  width:100%;
   height:40px;
 }
 
@@ -132,7 +135,7 @@ a
 
 #lang-menu p 
 {
-  float:right;
+  float:left;
   font-size: 15px;
   font-style: italic;
   padding-top:10px;
@@ -147,14 +150,14 @@ a
 #menu-bar 
 {
   float:left;
-  width:900px;
+  width:100%;
   height:160px;
 }
 
 #menu 
 {
   list-style-type: none;
-  float:right;
+  text-align: center;
   font-size: 25px;
   margin:70px 40px;
 }
@@ -180,7 +183,7 @@ a
 
 .course_overview 
 {
-  width: 1112px;
+  width: 100%;
 	height: 75px;
 	float: left;
 }
@@ -299,14 +302,14 @@ a
 
 .student_experience_column
 {
-  width: 1112px;
-	height: 1225px;
+  width: 100%;
+	height: 1700px;
 	float: left;
 }
 
 .student_experience_text
 {
-  width: 1112px;
+  width: 100%;
   height: 75px;
 	float: left;
 	text-align: center;
@@ -315,14 +318,14 @@ a
 
 .student_menu 
 {
-  width: 200px;
-	height: 750px;
+  width: 100%;
+	height: 250px;
 	float: left;
 }
 
 .student_menu_header
 {
-  width:200px;
+  width:100%;
 	height: 40px;
   float: left;
 	background-color: steelblue;
@@ -333,8 +336,8 @@ a
 
 .student_menu_text
 {
-  width: 200px;
-	height: 695px;
+  width: 100%;
+	height: 250px;
 	float: left;
 	padding-top: 15px;
 	text-align: center;
@@ -342,7 +345,7 @@ a
 
 .student_text
 {
-	width: 850px;
+	width: 100%;
 	height: 750px;
 	float: left;
 	padding-left: 35px;
@@ -356,7 +359,7 @@ a
 
 .student_emmen_image
 {
-	width:850px;
+	width: 100%;
 	height: 270px;
 	float: left;
 	text-align: center;
@@ -365,21 +368,25 @@ a
 
 .student-image_person
 {
-	width:250px;
+	width: 100%;
 	height: 250px;
-	float: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .student-image_person_right
 {
-	width:250px;
+	width: 100%;
 	height: 250px;
-	float: right;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .student_quote_box 
 {
-	width: 850px;
+	width: 100%;
 	height: 300px;
 	float: left;
 }
@@ -387,7 +394,7 @@ a
 
 .student_quote 
 {
-	width: 575px;
+	width: 100%;
 	height: 225px;
 	float: left;
 	padding-left: 25px;
@@ -413,6 +420,7 @@ a
   color:steelblue;
   font-size: 30px;
   text-align: center;
+  font-style: italic;
   border:3px  steelblue;
   border-radius: 20px;
 }
@@ -1337,7 +1345,7 @@ a
 .footer 
 {
    float:left;
-   width:362px;
+   width:33.33%;
    height:250px;
 }
 
