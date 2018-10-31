@@ -1433,3 +1433,18 @@ a
 #student_q{
   width: 300px;
 }
+/*Why holland*/
+.whheader{
+  padding: 10px;
+}
+.whypara{
+  text-justify: auto;
+}
+.headerofwh{
+  padding-bottom: 10px;
+}
+.maincontent1{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
