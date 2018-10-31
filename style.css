@@ -857,41 +857,31 @@ a
   text-align: center;
 }
 /*CAMPUS LIFE*/
-#debate 
-{
-  height: 340px;
-  width: 600px;
+.course_overview12{
+  padding-left: 35px;
+  font-size: 30px;
+  padding-bottom: 30px;
 }
 
-#robotics 
-{
-  height: 340px;
-  width: 600px;
+.paracont{
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
 }
 
-#sports 
-{
-  height: 340px;
-  width: 600px;
+.campheadr{
+  font-size: 20px;
+  padding-bottom: 15px;
 }
-
-#canteen 
-{
-  height: 340px;
-  width: 600px;
-}
-
-#student_experience_column
-{
-  width: 1112px;
-	height: 2100px;
-	float: left;
+.campbody{
+  margin: 0 auto;
+  text-align: left;
 }
 
 #container-campus_life
 {
-  width:1112px;
-  height:2600px;
+  width:80%;
+  height:100%;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
@@ -905,7 +895,7 @@ a
 	text-align: justify;
 }
 
-#paragraph
+.paragraph1
 {
   margin-top:10px;
   margin-bottom:10px;
