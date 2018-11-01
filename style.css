@@ -17,7 +17,7 @@ body
 }
 
 #container, #index-container, #admission_req_container, #admission_apply_container, #contact-container,
-#me-career-container, #BIM-container, #container-student-experience
+#me-career-container, #BIM-container, #container-student-experience, #what-others-say-container
 {
   width:1112px;
   height:1770px;
@@ -45,6 +45,11 @@ body
   height:1350px;
 }
 
+#what-others-say-container
+{
+  height: auto;
+}
+
 #container-overview 
 {
    width:1112px;
@@ -64,10 +69,16 @@ body
   height:200px;
 }
 
-#body, #admission_req_body, #admission_apply_body, #index-body
+#body, #admission_req_body, #admission_apply_body, #index-body,
+#what-others-say-body
 {
   width:1112px;
   height:1200px;
+}
+
+#what-others-say-body
+{
+  height: auto;
 }
 
 #index-body
@@ -626,13 +637,13 @@ a
   float:left;
   margin:20px 33px;
   border-right: 1px solid black;
-  height:600px;
+  height:auto;
 }
 
 #box2, #me-box2 
 {
   width:760px;
-  height:1000px;
+  height:auto;
   float:left;
   margin:20px 0px;
 }
@@ -1444,34 +1455,37 @@ a
 }
 /*What others say*/
 
-.student-image img{
-  width: 150px;
+.student-image 
+{
   height: 150px;
-  align-self: auto;
+  float: left;
  }
- #box1{
-   float: left;
- }
- #box21{
-   height: 600px;
-   margin: 0 auto;
-  
-   float: left;
- }
- .students_ima 
+ 
+ .students_img 
  {
    border-radius: 50%;
- }
- .qbox{
-   width:80%;
+   width: 150px;
+   height: auto;
  }
 
- #what-others-say-container{
-   margin: 0 auto;
-   width: 80%;
+ .student_q
+ {
+  float: left;
+  text-align: justify;
+  width: calc(100% - 160px);
+  margin-left: 10px;
  }
- #what-others-say-body{
-   width: 60%;
+
+ .quote-box
+ {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 50px;
+ }
+
+ .title-spacing
+ {
+  margin-bottom: 5px;
  }
  
  /* Events */
@@ -1501,7 +1515,7 @@ a
 	width:79%;
 	height:80%;
 	border-style: solid;
-    border-width: medium;
+  border-width: medium;
  }
   .event_img3{
 	background-image: url("pics/pi_day.jpg");
@@ -1510,7 +1524,7 @@ a
 	width:79%;
 	height:80%;
 	border-style: solid;
-    border-width: medium;
+  border-width: medium;
  }
  .event_text_backgr{
 	margin-top:51%;
@@ -1519,7 +1533,7 @@ a
 	background-color: rgba(70,130,180,0.5);
 	float: right;
 	border-style: solid;
-    border-width: thin;
+  border-width: thin;
  }
  .event_descr{
 	color: white;
