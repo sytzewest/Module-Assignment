@@ -429,6 +429,11 @@ a
   border-radius: 20px;
 }
 
+.box:hover
+{
+  cursor: pointer;
+}
+
 .box:first-child
 {
   margin-left: 15px;
@@ -457,7 +462,7 @@ a
   width:263px;
   height:70px;
   background-color:#CBD8E3;
-  opacity: 0.80;
+  opacity: 0.90;
   margin-top:370px;
   margin-right: 0px;
   float:left;
@@ -481,7 +486,7 @@ a
 .button p
 {
   font-size: 30px;
-  font-style: italic;
+  #font-style: italic;
   text-align: center;
 }
 
@@ -697,6 +702,13 @@ a
   font-size: 20px;
   color:white;
   border:none;
+  cursor:pointer;
+}
+
+#enrol-button:hover
+{
+  width: 258px;
+  height: 53px;
 }
 
 #open-day
@@ -1151,6 +1163,10 @@ a
 	text-transform:uppercase;
 }
 
+#year-1-narrative ul, #year-2-narrative ul, #year-3-narrative ul, #year-4-narrative ul
+{
+  list-style-position: inside;
+}
 
 #year-1-narrative, #year-3-narrative
 {
