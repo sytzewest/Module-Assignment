@@ -32,22 +32,26 @@
 			</div>
 			<hr>
 			<!--Body-->
-			<div id="contact-body"><div id="header" class="container">
+			<div id="contact-body">
+			
+				<div id="header" class="container">
 		
 				<div id="banner-1"> 
-					<form action="#" class="contact_form">
-					<input class="form-control" type="text" placeholder="Name(required)">
-					<input class="form-control" type="email" placeholder="E-mail(required)">
-					<input class="form-control" type="text" placeholder="Subject">
-					<textarea class="form-control" cols="30" rows="10" placeholder="Message(required)"></textarea>
+					<form action="contact.php" class="contact_form" method="post">
+					<input class="form-control" type="text" name="name" placeholder="Name(required)">
+					<input class="form-control" type="email" name="email" placeholder="E-mail(required)">
+					<input class="form-control" type="text" name="subject" placeholder="Subject">
+					<textarea class="form-control" cols="30" rows="10" name="message" placeholder="Message(required)"></textarea>
 					<input type="submit" value="Send">
 					</form>
 				</div>
-                <div id="banner-1"> <img src="pics/location.png" alt="location_of_NHL_Stenden">
+                
+					<div class="mapouter"><div class="gmap_canvas">
+					<iframe width="1000" height="500" id="gmap_canvas" src="https://maps.google.com/maps? q=netherlands&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 					
-				</div>
-
+					</div><style>.mapouter{text-align:right;height:500px;width:1000px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1000px;}</style></div>
 				
+			
 			</div>
 			<hr>
 			<!--Footer-->

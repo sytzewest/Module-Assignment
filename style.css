@@ -1256,7 +1256,10 @@ a
 	height:400px;
 }
 
-
+.bim_program li{
+	padding:6px;
+	
+}
 .item1,.item2
 {
         height:50px;
@@ -1419,6 +1422,16 @@ a
     height:150px;
     border-radius:0px;
     margin-bottom:10px;
+}
+.mapouter{
+	
+	float:left;
+}
+
+.gmap_canvas{
+	height:400px;
+	float:left;
+	padding-left:50px;
 }
 .contact_form input[type="submit"]
 {
