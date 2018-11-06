@@ -1494,22 +1494,8 @@ a
 .student-image
 {
   height: 150px;
-<<<<<<< HEAD
-  align-self: auto;
- }
- #box1{
-   float: left;
- }
- #box21{
-   height: 600px;
-   margin: 0 auto;
-
-   float: left;
- }
- .students_ima
-
   float: left;
- }
+}
 
  .students_img
 
@@ -1517,6 +1503,7 @@ a
    border-radius: 50%;
    width: 150px;
    height: 150px;
+   float: left;
  }
 
  .student_q
