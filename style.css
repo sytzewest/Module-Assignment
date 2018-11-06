@@ -1436,12 +1436,9 @@ a
     border-radius:0px;
     margin-bottom:10px;
 }
-.mapouter{
-	
-	float:left;
-}
 
-.gmap_canvas{
+
+.contact_map{
 	height:400px;
 	float:left;
 	padding-left:50px;
