@@ -839,6 +839,11 @@ a
 }
 
 /*BANKING AND INSURANCE PAGE*/
+#job-prospects-banking
+{
+	height:200px;
+	width:760px;
+}
 #BankImg
 {
   width:380px;
@@ -1258,17 +1263,17 @@ a
 
 .bim_program li{
 	padding:6px;
-	
+
 }
 
 .student_q_bim {
-	
+
 	padding-left:300px;
 
-} 
+}
 
 .bim_video{
-	
+
 	padding-left:100px;
 }
 
@@ -1534,7 +1539,7 @@ a
 
  .title-spacing
  {
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
   font-size: 17px;
  }
 
