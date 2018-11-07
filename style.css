@@ -17,12 +17,17 @@ body
 }
 
 #container, #index-container, #admission_req_container, #admission_apply_container, #contact-container,
-#me-career-container, #BIM-container, #container-student-experience, #what-others-say-container
+#me-career-container, #BIM-container, #container-student-experience, #what-others-say-container, #why_holland_container
 {
   width:1112px;
-  height:1770px;
+  height:auto; /*1770*/
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
+}
+
+#why_holland_container
+{
+  height: 1200px;
 }
 
 #index-container
@@ -42,7 +47,7 @@ body
 
 #contact-container
 {
-  height:1350px;
+  height:1260px;
 }
 
 #what-others-say-container
@@ -74,7 +79,7 @@ body
 #what-others-say-body
 {
   width:1112px;
-  height:1200px;
+  height:1200px; 
 }
 
 #dissa
@@ -975,7 +980,7 @@ a
 #BankingContainer
 {
   width:1112px;
-  height:1470px;
+  height:1490px;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
@@ -1014,8 +1019,8 @@ a
 
 #container-campus_life
 {
-  width:60%;
-  height:100%;
+  width:1112px;
+  height:2150px;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
