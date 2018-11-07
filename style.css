@@ -77,6 +77,18 @@ body
   height:1200px;
 }
 
+#dissa
+{
+  height:200px;
+  width:600px;
+}
+
+#dissb
+{
+  height:170px;
+  width:200px;
+}
+
 #what-others-say-body
 {
   height: auto;
@@ -188,6 +200,18 @@ a
   color:white;
 }
 
+#imgwhyB
+{
+  height: 300px;
+  width: 500px;
+}
+
+#imgwhyA
+{
+  width: 500px;
+  height: 300px;
+}
+
 /*BODY*/
 
 .course_overview
@@ -274,6 +298,80 @@ a
 	height: 150px;
 	float: left;
 	padding: 10px
+}
+
+/*Why Osprey*/
+
+.title
+{
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.text_whyosprey
+{
+  margin-top:30px;
+  font-size: 20px;
+}
+
+.image {
+  height: 110px;
+}
+
+.glass_imageset_A {
+  float: left;
+  margin: 10px;
+}
+
+.glass_imageset_B {
+  float: right;
+  margin: 10px;
+}
+
+.glass_imageset_C {
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+}
+
+.images_whyos {
+  border: 2px;
+  width: 1100px;
+}
+
+/*Studying with Disabilies*/
+
+.title
+{
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.text_dis
+{
+  margin-top:30px;
+  font-size: 20px;
+}
+
+.glass_imageset_D {
+  float: left;
+  margin: 10px;
+}
+
+.glass_imageset_E {
+  float: right;
+  margin: 10px;
+}
+
+.glass_imageset_F {
+  margin: 0 auto;
+}
+
+.images_dis {
+  border: 2px;
+  width: 1100px;
 }
 
 /*Gallery CSS*/
