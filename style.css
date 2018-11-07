@@ -1516,12 +1516,20 @@ a
   margin: 0 auto;
   padding-bottom: 15px;
 }
+.whyholimg{
+  width: 100%;
+}
+.whyholimg img{
+  
+  width: 600px;
+  height: 500px;
+}
+
+/*What others say*/
 #students_ima
 {
 	border-radius: 50%;
 }
-/*What others say*/
-
 .student-image
 {
   height: 150px;
@@ -1560,30 +1568,6 @@ a
  }
 
  /* Events */
-<<<<<<< HEAD
- 
- .events{
-	width: 1112px;
-    height: 75px;
-    float: left;
-	text-align: center;
- }
- .event-desc{
-	 text-align:center;
-	 font-size:25px;
-	 width: 1100px;
- }
- .event_container{
-	width: 850px;
-    height: 715px;
-    float: left;
-    padding-left: 300px;
-    text-align: justify;
- }
- 
-=======
-
->>>>>>> 92a7d851c025c4c1a6ea4f27c4ea8596f48a59fe
  .event_main{
 	width: 65%;
 	height: 50%;
@@ -1634,15 +1618,3 @@ a
 	color: white;
 	opacity: 1;
  }
-<<<<<<< HEAD
- .event_imdone{
-	padding-left: 134px;
- }
- .events_ext{
-	width: 1112px;
-    height: 2500px;
-    background-color: rgba(255,255,255,0.70);
-    margin: 0 auto;
- }
-=======
->>>>>>> 92a7d851c025c4c1a6ea4f27c4ea8596f48a59fe
