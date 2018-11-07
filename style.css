@@ -615,8 +615,13 @@ a
   width: 800px;
 }
 
+.calander{
+  margin: 0 auto;
+
+}
 .textofpara
 {
+  text-indent: 30px;
   color: black;
   padding-bottom: 16px;
 }
@@ -628,12 +633,13 @@ a
   font-size: 16px;
 }
 
-#calander img
+.calander img
 {
+  border: 1px solid black;
   height: 500px;
   width: 600px;
   float: left;
-  padding-bottom: 30px;
+  
 }
 /*COURSE-GENERAL INFO*/
 
