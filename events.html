@@ -9,7 +9,7 @@
 		</title>
 	</head>
 	<body>
-		<div id="container-overview">
+		<div class="events_ext">
 			<!--Header-->
 			<div id="header">
 				<div class="logo">
@@ -31,27 +31,44 @@
 				</div>
 			</div>
 			<!--Body-->
-			<div class="course_overview">
+			<div class="events">
 				<h2 style="font-size: 45px;" >Events</h2>
 			</div>
-
+			<div class="phils_rss_no_touchy">
+				<?php
+				$rss = new DOMDocument();
+						$rss->load('https://www.reddit.com/r/motivation/.rss');
+						$feed = array();
+						foreach ($rss->getElementsByTagName('item') as $node) {
+							$item = array ( 
+								'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+								'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
+								'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+								'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
+								);
+							array_push($feed, $item);
+						}
+						$limit = 7;
+						for($x=0;$x<$limit;$x++) {
+							$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
+							$link = $feed[$x]['link'];
+							$description = $feed[$x]['desc'];
+							$date = date('l F d, Y', strtotime($feed[$x]['date']));
+							echo '<p><strong><a href="'.$link.'" title="'.$title.'">'.$title.'</a></strong><br />';
+							echo '<small><em>Posted on '.$date.'</em></small></p>';
+							echo '<p>'.$description.'</p>';
+						}
+				
+				?>
+			</div>
+			<div class="event-desc">
+				<p>Here you can see all of our upcoming events, which you are very welcome to take part in, while getting a feel for our beautiful campus!</p>
+			</div>
 			<div class="student_experience_column">
-				<div class="student_menu">
-					<div class="student_menu_header">
-						<h3><b>International Students</b></h3>
+				<div class="event_container">
+					<div class="event_imdone">
+						
 					</div>
-					<div class="student_menu_text">
-						<b><p>Admission</p>
-						<br>
-						<p>Get to know us</p>
-						<br>
-						<p>Discover Emmen</p>
-						<br>
-						<p>Living in the Netherlands</p></b>
-					</div>
-				</div>
-				<div class="student_text">
-					<h3>Upcoming Events</h3>
 					<div class= "event_main">
 						<div class="event_header">
 							<h4>Open Day</h4>
@@ -100,6 +117,7 @@
 				</div>
 			</div>
 
+			</div>
 
 
 
@@ -146,8 +164,8 @@
 							<a href="#"><img src="pics/facebook.png" alt="facebook icon"></a>
 							<a href="#"><img src="pics/instagram.png" alt="instagram icon"></a>
 							<a href="#"><img src="pics/twitter.png" alt="twitter icon"></a>
-							<a href="#"><img src="pics/google.png" alt="google plus icon"></a>
-							<a href="#"><img src="pics/youtube.png" alt="youtube icon"></a>
+							 
+							 
 						</p>
 					</div>
 					<div>
