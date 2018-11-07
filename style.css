@@ -1670,8 +1670,8 @@ a
 
  .events_ext{
 	width:1200px;
-	height: 1200px;
 	float: left;
+	margin: 0 auto;
  }
  .events_header{
 	text-align:center;
