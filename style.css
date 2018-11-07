@@ -1490,6 +1490,25 @@ a
  
  /* Events */
  
+ .events{
+	width: 1112px;
+    height: 75px;
+    float: left;
+	text-align: center;
+ }
+ .event-desc{
+	 text-align:center;
+	 font-size:25px;
+	 width: 1100px;
+ }
+ .event_container{
+	width: 850px;
+    height: 715px;
+    float: left;
+    padding-left: 300px;
+    text-align: justify;
+ }
+ 
  .event_main{
 	width: 65%;
 	height: 50%;
@@ -1498,6 +1517,7 @@ a
  }
  .event_header{
 	font-size: 2vw;
+	margin-bottom: 8px;
  }
  .event_img1{
 	background-image: url("pics/open_day.jpg");
@@ -1506,7 +1526,7 @@ a
 	width:79%;
 	height:80%;
 	border-style: solid;
-    border-width: medium;
+    border-width: 4px;
  }
   .event_img2{
 	background-image: url("pics/post_fair.jpg");
@@ -1515,7 +1535,7 @@ a
 	width:79%;
 	height:80%;
 	border-style: solid;
-  border-width: medium;
+  border-width: 4px;
  }
   .event_img3{
 	background-image: url("pics/pi_day.jpg");
@@ -1524,10 +1544,10 @@ a
 	width:79%;
 	height:80%;
 	border-style: solid;
-  border-width: medium;
+  border-width: 4px;
  }
  .event_text_backgr{
-	margin-top:51%;
+	margin-top:49%;
 	height: 26%;
 	width: 70%;
 	background-color: rgba(70,130,180,0.5);
@@ -1538,4 +1558,13 @@ a
  .event_descr{
 	color: white;
 	opacity: 1;
+ }
+ .event_imdone{
+	padding-left: 134px;
+ }
+ .events_ext{
+	width: 1112px;
+    height: 2500px;
+    background-color: rgba(255,255,255,0.70);
+    margin: 0 auto;
  }
