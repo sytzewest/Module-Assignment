@@ -4,13 +4,12 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="icon" type="icon/image" href="pics/logo.png">
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>
 			Osprey Hogeschool
 		</title>
 	</head>
 	<body>
-		<div id="index-container">
+		<div id="contact-container">
 			<!--Header-->
 			<div id="header">
 				<div class="logo">
@@ -26,29 +25,33 @@
 						<li><a href="index.html" >Over Ons</a></li>
 						<li><a href="course_overview.html" >Opleidingen</a></li>
 						<li><a href="admission.html" >Aanmelden</a></li>
-						<li><a href="events.html" >Evenementen</a></li>
+						<li><a href="events.php" >Evenementen</a></li>
 						<li><a href="contact.html" >Contact</a></li>
 					</ul>
 				</div>
 			</div>
 			<hr>
 			<!--Body-->
-			<div id="contact-body"><div id="header" class="container">
+			<div id="contact-body">
+			
+				<div id="header" class="container">
 		
 				<div id="banner-1"> 
-					<form action="#" class="contact_form">
-					<input class="form-control" type="text" placeholder="Naam (verplicht)">
-					<input class="form-control" type="email" placeholder="E-mail (verplicht)">
-					<input class="form-control" type="text" placeholder="Onderwerp">
-					<textarea class="form-control" cols="30" rows="10" placeholder="Bericht (verplicht)"></textarea>
-					<input type="submit" value="Verstuur">
+					<form action="contact.php" class="contact_form" method="post">
+					<input class="form-control" type="text" name="name" placeholder="Naam(required)">
+					<input class="form-control" type="email" name="email" placeholder="E-mail(required)">
+					<input class="form-control" type="text" name="subject" placeholder="Onderwerp(required)">
+					<textarea class="form-control" cols="30" rows="10" name="message" placeholder="Bericht(required)"></textarea>
+					<input type="submit" name="submit" value="Stuur">
 					</form>
 				</div>
-                <div id="banner-1"> <img src="pics/location.png" alt="location_of_NHL_Stenden">
+                
+					<div class="contact_map">
+					<iframe width="1000" height="350" src="http://maps.google.com/maps?q=Stenden+university+Emmen&amp;output=embed"></iframe>
 					
-				</div>
-
+					</div>
 				
+			
 			</div>
 			<hr>
 			<!--Footer--> 

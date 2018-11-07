@@ -25,73 +25,31 @@
 						<li><a href="index.html" >About us</a></li>
 						<li><a href="course_overview.html" >Course Overview</a></li>
 						<li><a href="admission.html" >Admission</a></li>
-						<li><a href="events.html" >Events</a></li>
+						<li><a href="events.php" >Events</a></li>
 						<li><a href="contact.html" >Contact</a></li>
 					</ul>
 				</div>
 			</div>
 			<!--Body-->
-			<div class="events">
-				<h2 style="font-size: 45px;" >Events</h2>
+			<div class="events_header">
+				<h2>Upcoming Events</h2>
 			</div>
-			<div class="event-desc">
-				<p>Here you can see all of our upcoming events, which you are very welcome to take part in, while getting a feel for our beautiful campus!</p>
+			<div class="event_main">
+				<img class="event_resize_you_bitch" src="pics/open_day.jpg" alt="event"/>
+				<p>Come join us for our open day and meet some of our students!</p>
 			</div>
-			<div class="student_experience_column">
-				<div class="event_container">
-					<div class="event_imdone">
-						
-					</div>
-					<div class= "event_main">
-						<div class="event_header">
-							<h4>Open Day</h4>
-						</div>
-						<div class="event_img1">
-							
-							<div class="event_text_backgr">
-								<div class="event_descr">
-									<p>Come join us for our annual open day event! We will be hosting various events to showcase our courses and give you a chance to meet some of our students.</p>
-								</div>
-							</div>
-							
-						</div>
-					
-					</div>
-					<div class= "event_main">
-						<div class="event_header">
-							<h4>Postgraduate Study Fair</h4>
-						</div>
-						<div class="event_img2">
-							
-							<div class="event_text_backgr">
-								<div class="event_descr">
-									<p>Receive a wealth of studying, application and funding advice for your postgraduate endeavours.</p>
-								</div>
-							</div>
-							
-						</div>
-					
-					</div>
-					<div class= "event_main">
-						<div class="event_header">
-							<h4>Pi Day</h4>
-						</div>
-						<div class="event_img3">
-							
-							<div class="event_text_backgr">
-								<div class="event_descr">
-									<p>Come join us in celebrating the 14th of March by eating lots of Pie!</p>
-								</div>
-							</div>
-							
-						</div>
-					
-					</div>
-				</div>
-				<div class="phils_rss_no_touchy">
+			<div class="event_main">
+				<img class="event_resize_you_bitch"src="pics/post_fair.jpg"alt="event"/>
+				<p>Receive a wealth of studying, application and funding advice for your postgraduate endeavours.</p>
+			</div>
+			<div class="event_main">
+				<img class="event_resize_you_bitch"src="pics/pi_day.jpg"alt="event"/>
+				<p>Join us for our annual celebration of the fourteenth of march, when we eat lots Pie!</p>
+			</div>
+			<div class="event_rss">
 				<?php
 				$rss = new DOMDocument();
-						$rss->load('https://www.reddit.com/r/motivation/.rss');
+						$rss->load('https://tinybuddha.com/feed');
 						$feed = array();
 						foreach ($rss->getElementsByTagName('item') as $node) {
 							$item = array ( 
@@ -102,7 +60,7 @@
 								);
 							array_push($feed, $item);
 						}
-						$limit = 7;
+						$limit = 3;
 						for($x=0;$x<$limit;$x++) {
 							$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
 							$link = $feed[$x]['link'];
@@ -112,14 +70,10 @@
 							echo '<small><em>Posted on '.$date.'</em></small></p>';
 							echo '<p>'.$description.'</p>';
 						}
-				
 				?>
 			</div>
-			</div>
+		
 			
-		</div>
-
-
 			<hr>
 			<!--Footer-->
 			<div id="footer">
