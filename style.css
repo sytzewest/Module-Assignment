@@ -17,12 +17,17 @@ body
 }
 
 #container, #index-container, #admission_req_container, #admission_apply_container, #contact-container,
-#me-career-container, #BIM-container, #container-student-experience, #what-others-say-container
+#me-career-container, #BIM-container, #container-student-experience, #what-others-say-container, #why_holland_container
 {
   width:1112px;
-  height:1770px;
+  height:auto; /*1770*/
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
+}
+
+#why_holland_container
+{
+  height: 1200px;
 }
 
 #index-container
@@ -42,7 +47,7 @@ body
 
 #contact-container
 {
-  height:1350px;
+  height:1260px;
 }
 
 #what-others-say-container
@@ -74,7 +79,19 @@ body
 #what-others-say-body
 {
   width:1112px;
-  height:1200px;
+  height:1200px; 
+}
+
+#dissa
+{
+  height:200px;
+  width:600px;
+}
+
+#dissb
+{
+  height:170px;
+  width:200px;
 }
 
 #what-others-say-body
@@ -188,6 +205,18 @@ a
   color:white;
 }
 
+#imgwhyB
+{
+  height: 300px;
+  width: 500px;
+}
+
+#imgwhyA
+{
+  width: 500px;
+  height: 300px;
+}
+
 /*BODY*/
 
 .course_overview
@@ -274,6 +303,76 @@ a
 	height: 150px;
 	float: left;
 	padding: 10px
+}
+
+/*Why Osprey*/
+
+.title_why
+{
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.text_whyosprey
+{
+  margin-top:30px;
+  font-size: 20px;
+}
+
+.glass_imageset_A {
+  float: left;
+  margin: 10px;
+}
+
+.glass_imageset_B {
+  float: right;
+  margin: 10px;
+}
+
+.glass_imageset_C {
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+}
+
+.images_whyos {
+  border: 2px;
+  width: 1100px;
+}
+
+/*Studying with Disabilies*/
+
+.title_dis
+{
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.text_dis
+{
+  margin-top:30px;
+  font-size: 20px;
+}
+
+.glass_imageset_D {
+  float: left;
+  margin: 10px;
+}
+
+.glass_imageset_E {
+  float: right;
+  margin: 10px;
+}
+
+.glass_imageset_F {
+  margin: 0 auto;
+}
+
+.images_dis {
+  border: 2px;
+  width: 1100px;
 }
 
 /*Gallery CSS*/
@@ -877,7 +976,7 @@ a
 #BankingContainer
 {
   width:1112px;
-  height:1470px;
+  height:1490px;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
@@ -901,12 +1000,13 @@ a
 .paracont{
   width: 80%;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 
 .campheadr{
   font-size: 20px;
   padding-bottom: 15px;
+  text-align: center;
 }
 .campbody{
   margin: 0 auto;
@@ -915,8 +1015,8 @@ a
 
 #container-campus_life
 {
-  width:80%;
-  height:100%;
+  width:1112px;
+  height:2150px;
   background-color: rgba(255,255,255,0.70);
   margin:0 auto;
 }
@@ -936,10 +1036,16 @@ a
   margin-bottom:10px;
 }
 .imges {
-  width: 930px;
-  height: 400px;
-  border:solid thick steelblue;
+  width: 640px;
+  height: 340px;
+  margin: auto;
+  padding: 20px;
 
+}
+.imges img{
+  border:solid thick steelblue;
+  width: 640px;
+  height: 340px;
 }
 /*AEROSPACE PAGE*/
 #AeroImg
@@ -1509,12 +1615,20 @@ a
   margin: 0 auto;
   padding-bottom: 15px;
 }
+.whyholimg{
+  width: 100%;
+}
+.whyholimg img{
+
+  width: 600px;
+  height: 500px;
+}
+
+/*What others say*/
 #students_ima
 {
 	border-radius: 50%;
 }
-/*What others say*/
-
 .student-image
 {
   height: 150px;
@@ -1553,30 +1667,6 @@ a
  }
 
  /* Events */
-<<<<<<< HEAD
- 
- .events{
-	width: 1112px;
-    height: 75px;
-    float: left;
-	text-align: center;
- }
- .event-desc{
-	 text-align:center;
-	 font-size:25px;
-	 width: 1100px;
- }
- .event_container{
-	width: 850px;
-    height: 715px;
-    float: left;
-    padding-left: 300px;
-    text-align: justify;
- }
- 
-=======
-
->>>>>>> 92a7d851c025c4c1a6ea4f27c4ea8596f48a59fe
  .event_main{
 	width: 65%;
 	height: 50%;
@@ -1627,15 +1717,3 @@ a
 	color: white;
 	opacity: 1;
  }
-<<<<<<< HEAD
- .event_imdone{
-	padding-left: 134px;
- }
- .events_ext{
-	width: 1112px;
-    height: 2500px;
-    background-color: rgba(255,255,255,0.70);
-    margin: 0 auto;
- }
-=======
->>>>>>> 92a7d851c025c4c1a6ea4f27c4ea8596f48a59fe
