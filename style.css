@@ -302,7 +302,7 @@ a
 
 /*Why Osprey*/
 
-.title
+.title_why
 {
   text-align: center;
   font-size: 30px;
@@ -313,10 +313,6 @@ a
 {
   margin-top:30px;
   font-size: 20px;
-}
-
-.image {
-  height: 110px;
 }
 
 .glass_imageset_A {
@@ -342,7 +338,7 @@ a
 
 /*Studying with Disabilies*/
 
-.title
+.title_dis
 {
   text-align: center;
   font-size: 30px;
@@ -1618,7 +1614,7 @@ a
   width: 100%;
 }
 .whyholimg img{
-  
+
   width: 600px;
   height: 500px;
 }
