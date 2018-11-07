@@ -615,8 +615,13 @@ a
   width: 800px;
 }
 
+.calander{
+  margin: 0 auto;
+
+}
 .textofpara
 {
+  text-indent: 30px;
   color: black;
   padding-bottom: 16px;
 }
@@ -628,12 +633,13 @@ a
   font-size: 16px;
 }
 
-#calander img
+.calander img
 {
+  border: 1px solid black;
   height: 500px;
   width: 600px;
   float: left;
-  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 /*COURSE-GENERAL INFO*/
 
@@ -1284,6 +1290,9 @@ a
 	padding-left:100px;
 }
 
+.bimEcHeadingText{
+	text-align:center;
+}
 /*----------------------------------*/
 .item1,.item2
 {
@@ -1551,7 +1560,30 @@ a
  }
 
  /* Events */
+<<<<<<< HEAD
+ 
+ .events{
+	width: 1112px;
+    height: 75px;
+    float: left;
+	text-align: center;
+ }
+ .event-desc{
+	 text-align:center;
+	 font-size:25px;
+	 width: 1100px;
+ }
+ .event_container{
+	width: 850px;
+    height: 715px;
+    float: left;
+    padding-left: 300px;
+    text-align: justify;
+ }
+ 
+=======
 
+>>>>>>> 92a7d851c025c4c1a6ea4f27c4ea8596f48a59fe
  .event_main{
 	width: 65%;
 	height: 50%;
@@ -1560,6 +1592,7 @@ a
  }
  .event_header{
 	font-size: 2vw;
+	margin-bottom: 8px;
  }
  .event_img1{
 	background-image: url("pics/open_day.jpg");
@@ -1568,7 +1601,7 @@ a
 	width:79%;
 	height:80%;
 	border-style: solid;
-    border-width: medium;
+    border-width: 4px;
  }
   .event_img2{
 	background-image: url("pics/post_fair.jpg");
@@ -1577,7 +1610,7 @@ a
 	width:79%;
 	height:80%;
 	border-style: solid;
-  border-width: medium;
+  border-width: 4px;
  }
   .event_img3{
 	background-image: url("pics/pi_day.jpg");
@@ -1586,10 +1619,10 @@ a
 	width:79%;
 	height:80%;
 	border-style: solid;
-  border-width: medium;
+  border-width: 4px;
  }
  .event_text_backgr{
-	margin-top:51%;
+	margin-top:49%;
 	height: 26%;
 	width: 70%;
 	background-color: rgba(70,130,180,0.5);
@@ -1601,3 +1634,15 @@ a
 	color: white;
 	opacity: 1;
  }
+<<<<<<< HEAD
+ .event_imdone{
+	padding-left: 134px;
+ }
+ .events_ext{
+	width: 1112px;
+    height: 2500px;
+    background-color: rgba(255,255,255,0.70);
+    margin: 0 auto;
+ }
+=======
+>>>>>>> 92a7d851c025c4c1a6ea4f27c4ea8596f48a59fe

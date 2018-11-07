@@ -600,6 +600,7 @@ a
 
 .textofpara
 {
+  text-indent: 30px;
   color: black;
   padding-bottom: 16px;
 }
