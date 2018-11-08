@@ -5,11 +5,11 @@
 		<link rel="icon" type="icon/image" href="pics/logo.png">
 		<meta charset="UTF-8">
 		<title>
-			Osprey University
+			 Universidad de osprey
 		</title>
 	</head>
 	<body>
-		<div id="container-overview">
+		<div class="events_ext">
 			<!--Header-->
 			<div id="header">
 				<div class="logo">
@@ -24,41 +24,100 @@
 					<ul id="menu">
 						<li><a href="index.html" > Sobre nosotros</a></li>
 						<li><a href="course_overview.html" >Resumen del curso</a></li>
-						<li><a href="admission.html" > Admisión</a></li>
-						<li><a href="events.html" >Eventos</a></li>
+						<li><a href="admission.html" >Admisión</a></li>
+						<li><a href="events.php" >Eventos</a></li>
 						<li><a href="contact.html" >Contacto</a></li>
 					</ul>
 				</div>
 			</div>
 			<!--Body-->
-			<div class="course_overview">
+			<div class="events">
 				<h2 style="font-size: 45px;" >Eventos</h2>
 			</div>
-
+			<div class="phils_rss_no_touchy">
+				<?php
+				$rss = new DOMDocument();
+						$rss->load('https://www.reddit.com/r/motivation/.rss');
+						$feed = array();
+						foreach ($rss->getElementsByTagName('item') as $node) {
+							$item = array ( 
+								'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+								'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
+								'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+								'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
+								);
+							array_push($feed, $item);
+						}
+						$limit = 7;
+						for($x=0;$x<$limit;$x++) {
+							$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
+							$link = $feed[$x]['link'];
+							$description = $feed[$x]['desc'];
+							$date = date('l F d, Y', strtotime($feed[$x]['date']));
+							echo '<p><strong><a href="'.$link.'" title="'.$title.'">'.$title.'</a></strong><br />';
+							echo '<small><em>Posted on '.$date.'</em></small></p>';
+							echo '<p>'.$description.'</p>';
+						}
+				
+				?>
+			</div>
+			<div class="event-desc">
+				<p>Here you can see all of our upcoming events, which you are very welcome to take part in, while getting a feel for our beautiful campus!</p>
+			</div>
 			<div class="student_experience_column">
-				<div class="student_menu">
-					<div class="student_menu_header">
-						<h3><b>International Students</b></h3>
+				<div class="event_container">
+					<div class="event_imdone">
+						
 					</div>
-					<div class="student_menu_text">
-						<b><p> Admisión</p>
-						<br>
-						<p>Get to know us</p>
-						<br>
-						<p>Discover Emmen</p>
-						<br>
-						<p>Living in the Netherlands</p></b>
+					<div class= "event_main">
+						<div class="event_header">
+							<h4>Open Day</h4>
+						</div>
+						<div class="event_img1">
+							
+							<div class="event_text_backgr">
+								<div class="event_descr">
+									<p>Come join us for our annual open day event! We will be hosting various events to showcase our courses and give you a chance to meet some of our students.</p>
+								</div>
+							</div>
+							
+						</div>
+					
 					</div>
-				</div>
-				<div class="student_text">
-					<h3>Upcoming Eventos</h3>
-          <p>
-            
-          </p>
-
+					<div class= "event_main">
+						<div class="event_header">
+							<h4>Postgraduate Study Fair</h4>
+						</div>
+						<div class="event_img2">
+							
+							<div class="event_text_backgr">
+								<div class="event_descr">
+									<p>Receive a wealth of studying, application and funding advice for your postgraduate endeavours.</p>
+								</div>
+							</div>
+							
+						</div>
+					
+					</div>
+					<div class= "event_main">
+						<div class="event_header">
+							<h4>Pi Day</h4>
+						</div>
+						<div class="event_img3">
+							
+							<div class="event_text_backgr">
+								<div class="event_descr">
+									<p>Come join us in celebrating the 14th of March by eating lots of Pie!</p>
+								</div>
+							</div>
+							
+						</div>
+					
+					</div>
 				</div>
 			</div>
 
+			</div>
 
 
 
@@ -69,7 +128,7 @@
 					<div class="footer-title">
 						<p>
 							Osprey<br>
-							University of Applied Sciences
+							Universidad de Ciencias Aplicadas
 						</p>
 					</div>
 					<div id="address">
@@ -84,15 +143,15 @@
 				</div>
 				<div class="footer footer2">
 					<div class="footer-title">
-						<p>Quick links:</p>
+						<p>Enlaces rápidos:</p>
 					</div>
 					<div>
 						<ul id="quick-links">
 							<li><a href="course_overview.html">Resumen del curso</a></li>
-							<li><a href="why_holland.html">Why Holland?</a></li>
-							<li><a href="studying_with_disabilities.html">Studying with a disability</a></li>
-							<li><a href="exchange_students.html">Exchange Students</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="why_holland.html">¿Por qué Holanda?</a></li>
+							<li><a href="studying_with_disabilities.html">Estudiando con una discapacidad</a></li>
+							<li><a href="exchange_students.html">Estudiantes de intercambio</a></li>
+							<li><a href="gallery.html">Galería</a></li>
 						</ul>
 					</div>
 				</div>
@@ -106,12 +165,12 @@
 							<a href="#"><img src="pics/instagram.png" alt="instagram icon"></a>
 							<a href="#"><img src="pics/twitter.png" alt="twitter icon"></a>
 							 
-							  
+							 
 						</p>
 					</div>
 					<div>
 						<p id="copyright">
-							&copy;Osprey University
+							&copy; Universidad de osprey
 						</p>
 					</div>
 				</div>

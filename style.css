@@ -1198,6 +1198,13 @@ a
   height:1110px;
 }
 
+video
+{
+  width:400px;
+  height: 280px;
+  margin-left: 150px;
+}
+
 /*ADMISSION PAGE*/
 
 #admission-menu

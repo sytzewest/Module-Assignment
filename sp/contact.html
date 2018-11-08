@@ -5,7 +5,7 @@
 		<link rel="icon" type="icon/image" href="pics/logo.png">
 		<meta charset="UTF-8">
 		<title>
-			Osprey University
+			 Universidad de osprey
 		</title>
 	</head>
 	<body>
@@ -24,30 +24,34 @@
 					<ul id="menu">
 						<li><a href="index.html" > Sobre nosotros</a></li>
 						<li><a href="course_overview.html" >Resumen del curso</a></li>
-						<li><a href="admission.html" > Admisión</a></li>
-						<li><a href="events.html" >Eventos</a></li>
+						<li><a href="admission.html" >Admisión</a></li>
+						<li><a href="events.php" >Eventos</a></li>
 						<li><a href="contact.html" >Contacto</a></li>
 					</ul>
 				</div>
 			</div>
 			<hr>
 			<!--Body-->
-			<div id="contact-body"><div id="header" class="container">
+			<div id="contact-body">
+			
+				<div id="header" class="container">
 		
 				<div id="banner-1"> 
-					<form action="#" class="contact_form">
-					<input class="form-control" type="text" placeholder="Name(required)">
-					<input class="form-control" type="email" placeholder="E-mail(required)">
-					<input class="form-control" type="text" placeholder="Subject">
-					<textarea class="form-control" cols="30" rows="10" placeholder="Message(required)"></textarea>
-					<input type="submit" value="Send">
+					<form action="contact.php" class="contact_form" method="post">
+					<input class="form-control" type="text" name="name" placeholder="Name(required)">
+					<input class="form-control" type="email" name="email" placeholder="E-mail(required)">
+					<input class="form-control" type="text" name="subject" placeholder="Subject(required)">
+					<textarea class="form-control" cols="30" rows="10" name="message" placeholder="Message(required)"></textarea>
+					<input type="submit" name="submit" value="Submit">
 					</form>
 				</div>
-                <div id="banner-1"> <img src="pics/location.png" alt="location_of_NHL_Stenden">
+                
+					<div class="contact_map">
+					<iframe width="1000" height="350" src="http://maps.google.com/maps?q=Stenden+university+Emmen&amp;output=embed"></iframe>
 					
-				</div>
-
+					</div>
 				
+			
 			</div>
 			<hr>
 			<!--Footer-->
@@ -56,7 +60,7 @@
 					<div class="footer-title">
 						<p>
 							Osprey<br>
-							University of Applied Sciences
+							Universidad de Ciencias Aplicadas
 						</p>
 					</div>
 					<div id="address">
@@ -71,15 +75,15 @@
 				</div>
 				<div class="footer footer2">
 					<div class="footer-title">
-						<p>Quick links:</p>
+						<p>Enlaces rápidos:</p>
 					</div>
 					<div>
 						<ul id="quick-links">
 							<li><a href="course_overview.html">Resumen del curso</a></li>
-							<li><a href="why_holland.html">Why Holland?</a></li>
-							<li><a href="studying_with_disabilities.html">Studying with a disability</a></li>
-							<li><a href="exchange_students.html">Exchange Students</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="why_holland.html">¿Por qué Holanda?</a></li>
+							<li><a href="studying_with_disabilities.html">Estudiando con una discapacidad</a></li>
+							<li><a href="exchange_students.html">Estudiantes de intercambio</a></li>
+							<li><a href="gallery.html">Galería</a></li>
 						</ul>
 					</div>
 				</div>
@@ -93,12 +97,12 @@
 							<a href="#"><img src="pics/instagram.png" alt="instagram icon"></a>
 							<a href="#"><img src="pics/twitter.png" alt="twitter icon"></a>
 							 
-							  
+							 
 						</p>
 					</div>
 					<div>
 						<p id="copyright">
-							&copy;Osprey University
+							&copy; Universidad de osprey
 						</p>
 					</div>
 				</div>
